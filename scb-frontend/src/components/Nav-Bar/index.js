@@ -13,23 +13,23 @@ function NavBar() {
     <div className='nav' style={{backgroundColor:'Black',marginTop:'2rem'}}>
     <ul className='nav position-fix'>
     <Nav.Item>
-        <Nav.Link href="/home">Home</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
       </Nav.Item>
     <Dropdown as={NavItem}>
     <Dropdown.Toggle as={NavLink}>Committee</Dropdown.Toggle>
     <Dropdown.Menu>
-      <Dropdown.Item>IAOMR</Dropdown.Item>
-      <Dropdown.Item>IAOMP</Dropdown.Item>
-      <Dropdown.Item>AOMSI</Dropdown.Item>
+      <Dropdown.Item href="/iaomr">IAOMR</Dropdown.Item>
+      <Dropdown.Item href="/iaomp">IAOMP</Dropdown.Item>
+      <Dropdown.Item href="/aomsi">AOMSI</Dropdown.Item>
       <Dropdown.Item>OOO EXECUTIVE ADVISORS</Dropdown.Item>
       <Dropdown.Item>CORE ORGANISATION COMMITTEE</Dropdown.Item>
       <Dropdown.Item>OTHER COMMITTEE</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
    <Dropdown as={NavItem}>
-   <Dropdown.Toggle as={NavLink}>Registration for Conference</Dropdown.Toggle>
+   <Dropdown.Toggle as={NavLink} >Registration for Conference</Dropdown.Toggle>
    <Dropdown.Menu>
-     <Dropdown.Item>Registration Details</Dropdown.Item>
+     <Dropdown.Item href="/registration">Registration Details</Dropdown.Item>
    </Dropdown.Menu>
  </Dropdown>
  <Nav.Item>
@@ -39,7 +39,7 @@ function NavBar() {
    <Dropdown.Toggle as={NavLink}>Sponsor</Dropdown.Toggle>
    <Dropdown.Menu>
      <Dropdown.Item>Sponsor the Event</Dropdown.Item>
-     <Dropdown.Item>Sponsorship Details</Dropdown.Item>
+     <Dropdown.Item href="/sponsor">Sponsorship Details</Dropdown.Item>
    </Dropdown.Menu>
  </Dropdown>
  <Dropdown as={NavItem}>
@@ -52,7 +52,7 @@ function NavBar() {
  </Dropdown>
  
  <Nav.Item>
-        <Nav.Link>Contact Us</Nav.Link>
+        <Nav.Link href="/ContactUs">Contact Us</Nav.Link>
       </Nav.Item>
  </ul>
     </div>
