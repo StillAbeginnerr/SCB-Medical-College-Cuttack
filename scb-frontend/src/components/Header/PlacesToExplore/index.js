@@ -32,13 +32,13 @@ function PlacesToExplore() {
 
         </div>
         
-       <img className='divider' src={line} alt=''></img>
+       {/* <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>
        
-       <img className='divider' src={line} alt=''></img>
+       <img className='divider' src={line} alt=''></img> */}
 </div>
 
     </>

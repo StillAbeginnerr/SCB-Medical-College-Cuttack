@@ -27,14 +27,14 @@ function AboutSym() {
     </div>
     <img className='aboutpicture' src={aboutpicture}></img>
     </div>
-    
+{/*     
     <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>
        
-       <img className='divider' src={line} alt=''></img>
+       <img className='divider' src={line} alt=''></img> */}
     </>
   )
 }

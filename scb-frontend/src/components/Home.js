@@ -14,9 +14,9 @@ function Home() {
  <LogoSection></LogoSection>
     <NavBar></NavBar>
     <Header></Header>
-        {/*<EventDetails></EventDetails>
+        {/* <EventDetails></EventDetails> */}
     <AboutSym></AboutSym>
-    <PlacesToExplore></PlacesToExplore> */}
+    <PlacesToExplore></PlacesToExplore>
     <OrganisingCommittee></OrganisingCommittee>
     </>
   )

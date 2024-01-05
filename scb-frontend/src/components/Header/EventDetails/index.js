@@ -35,7 +35,7 @@ SCB Medical College and Hospital
   </div>
          
          <img className='twologos' src={twologos} alt=''></img>
-         <div>
+         {/* <div>
          <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>
@@ -43,7 +43,7 @@ SCB Medical College and Hospital
        <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>
-         </div>
+         </div> */}
     
        </>
   )

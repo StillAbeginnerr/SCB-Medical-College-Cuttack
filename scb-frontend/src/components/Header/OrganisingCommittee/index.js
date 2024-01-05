@@ -59,13 +59,7 @@ ORGANISING CHAIRMAN</button>
         </div>
        </div>
 
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
+
        
        
 {/* third-level1 */}
@@ -91,27 +85,21 @@ ORGANISING CHAIRMAN</button>
     </div>
   </div>
   <div className='PosDistance1A'>
-    <img className='PhotoPos-2' src={Doctor6} alt=''></img>
+    <img className='PhotoPos-2A' src={Doctor6} alt=''></img>
     <div className='name-card'>
       <button className='btn-css'>DR. SHADAB ALI BAIG <br></br>
       JOINT SECRETARY</button>
     </div>
   </div>
   <div className='PosDistance1A'>
-    <img className='PhotoPos-2' src={Doctor7} alt=''></img>
+    <img className='PhotoPos-2A' src={Doctor7} alt=''></img>
     <div className='name-card'>
       <button className='btn-css'>DR. ABIKSHYEET PANDA <br></br>
       JOINT SECRETARY</button>
     </div>
   </div>
 </div>
-<img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
+
 {/* third-level2 */}
 <div className='Third-Level-2A'>
   <div className='PosDistanceA'>
@@ -155,13 +143,7 @@ thirdlevelMain */}
     </div>
   </div>
 </div>
-<img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
+
 {/* thirdlevel3 */}
 <div className='second-level'>
   <div className='PosDistance1A'>
@@ -174,15 +156,15 @@ thirdlevelMain */}
 </div>
 <div className='second-levelA'>
  
-  <div className='PosDistance' style={{position:'relative',left:'9%'}}>
-    <img className='PhotoPos-2' src={Doctor13} alt=''></img>
+  <div className='PosDistance1A'>
+    <img className='PhotoPos-3A' src={Doctor13} alt=''></img>
     <div className='name-card'>
       <button className='btn-css'>DR. PRIYANKA DEBTA <br></br>
       PRE-CONFERENCE CHAIRMAN</button>
     </div>
   </div>
-  <div className='PosDistance' style={{position:'relative',left:'19%'}}>
-    <img className='PhotoPos-2' src={Doctor14} alt=''></img>
+  <div className='PosDistance1A'>
+    <img className='PhotoPos-3A' src={Doctor14} alt=''></img>
     <div className='name-card'>
       <button className='btn-css'>Dr. SHUBHANGI PAREEK <br></br>
       PRE-CONFERENCE CHAIRMAN</button>
@@ -190,15 +172,7 @@ thirdlevelMain */}
   </div>
 </div>
 
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
-       <img className='divider' src={line} alt=''></img>
-       
+
    </div>
    </>
   )

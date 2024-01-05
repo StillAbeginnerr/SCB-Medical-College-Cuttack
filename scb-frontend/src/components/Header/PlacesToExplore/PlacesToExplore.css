@@ -39,7 +39,12 @@ margin-top: 5rem;
    {
     display: block;
     position: relative;
-    right: 20%;
+    
+   }
+
+   .Heading-para{
+    text-align: center;
+    margin-left: 7rem;
    }
    .cardimg{
     border-radius: 15px;
@@ -47,6 +52,18 @@ margin-top: 5rem;
     height: 16rem;
     margin-left: 7rem;
     margin-bottom: 1rem;
+
+}
+
+.main-container{
+    position: relative;
+    left: -4rem;
+}
+.Heading-1{
+   width:60%;
+   margin-top: 15rem;
+   position: relative;
+   right: 40rem;
 }
 
 }
