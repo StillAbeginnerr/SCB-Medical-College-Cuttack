@@ -39,6 +39,8 @@
    }
 .container{
     display: block;
+    position: relative;
+    left: 2.5rem;
     
 }
 .logoSCB{
@@ -60,6 +62,7 @@
     position: relative;
     left: 11rem;
     top: 1rem;
+    width: 60%;
 }
 
 .logoIAOMR{

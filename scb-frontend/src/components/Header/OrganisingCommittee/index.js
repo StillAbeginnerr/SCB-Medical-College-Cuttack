@@ -65,7 +65,7 @@ ORGANISING CHAIRMAN</button>
 {/* third-level1 */}
 <div className='second-levelA'>
  
-  <div className='PosDistance1A'>
+  <div className='PosDistance1AB posmob'>
     <img className='PhotoPos-2' src={Doctor5} alt=''></img>
     <div className='name-card'>
       <button className='btn-css'>Dr. SHREEYAM MOHAPATRA<br></br>
@@ -101,11 +101,11 @@ ORGANISING CHAIRMAN</button>
 </div>
 
 {/* third-level2 */}
-<div className='Third-Level-2A'>
-  <div className='PosDistanceA'>
+<div className='Third-Level-3A'>
+  <div className='PosDistanceAC'>
     <img className='PhotoPos-3A' src={Doctor8} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>DR. KUNAL AGARWAL <br></br>
+      <button className='btn-css-dAC'>DR. KUNAL AGARWAL <br></br>
       SCIENTIFIC CHAIRMAN</button>
     </div>
   </div>
@@ -114,31 +114,31 @@ ORGANISING CHAIRMAN</button>
 {/* 
 thirdlevelMain */}
 <div className='Third-Level-2A'>
-  <div className='PosDistanceA'>
+  <div className='PosDistanceAF'>
     <img className='PhotoPos-2A' src={Doctor16} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>Dr. J P raiguru<br></br>
+      <button className='btn-css-d'>Dr. J P raiguru<br></br>
       Scientific Co Chairman</button>
     </div>
   </div>
-  <div className='PosDistanceA'>
+  <div className='PosDistanceAF'>
     <img className='PhotoPos-3A' src={Doctor9} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>DR. RACHNA RATH <br></br>
+      <button className='btn-css-d'>DR. RACHNA RATH <br></br>
       SCIENTIFIC CHAIRMAN</button>
     </div>
   </div>
-  <div className='PosDistanceA'>
+  <div className='PosDistanceAF'>
     <img className='PhotoPos-3A' src={Doctor10} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>DR. SWARNAV PATNAIK <br></br>
+      <button className='btn-css-d'>DR. SWARNAV PATNAIK <br></br>
       SCIENTIFIC CO-CHAIRMAN</button>
     </div>
   </div>
-  <div className='PosDistanceA'>
+  <div className='PosDistanceAF'>
     <img className='PhotoPos-3A' src={Doctor11} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>DR. GYANA RANJAN SAHOO <br></br>
+      <button className='btn-css-d'>DR. GYANA RANJAN SAHOO <br></br>
       SCIENTIFIC CO-CHAIRMAN</button>
     </div>
   </div>
@@ -146,10 +146,10 @@ thirdlevelMain */}
 
 {/* thirdlevel3 */}
 <div className='second-level'>
-  <div className='PosDistance1A'>
+  <div className='PosDistance1AD'>
     <img className='PhotoPos-2' src={Doctor12} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>DR. DEBAJYOTI BARDHAN <br></br>
+      <button className='btn-css-d'>DR. DEBAJYOTI BARDHAN <br></br>
       TREASURER</button>
     </div>
   </div>
@@ -163,7 +163,7 @@ thirdlevelMain */}
       PRE-CONFERENCE CHAIRMAN</button>
     </div>
   </div>
-  <div className='PosDistance1A'>
+  <div className='PosDistance1AD'>
     <img className='PhotoPos-3A' src={Doctor14} alt=''></img>
     <div className='name-card'>
       <button className='btn-css'>Dr. SHUBHANGI PAREEK <br></br>
