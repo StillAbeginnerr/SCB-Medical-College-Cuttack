@@ -1,0 +1,28 @@
+
+.guidelines-container { /* Class for the overall container */
+    width: 1200px; /* Adjust if needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .guidelines-heading {
+    font-size: 44px; /* Adjust for heading size */
+    text-align: center; /* Adjust if needed */
+    margin-bottom: 20px;
+    color: #149BFC;
+  }
+  
+  .guidelines-list {
+    font-size: 18px; /* Adjust for content size */
+    list-style-type: disc; /* Display dots as bullets */
+    margin-left: 20px; /* Adjust for indentation */
+    line-height: 3.5; /* Adjust for line spacing */
+  }
+  
+  /* Additional classes for specific elements or layout adjustments */
+  /* Add rules here based on the image you have */
+  
+  /* Example for a border around the container: */
+  .guidelines-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }

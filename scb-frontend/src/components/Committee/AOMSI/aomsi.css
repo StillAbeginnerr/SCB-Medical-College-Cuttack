@@ -1,0 +1,48 @@
+.Doctor{
+    display: block;
+    position: relative;
+    margin-top: 12rem;
+    left: 2rem;
+}
+
+.btn-css-aomsi{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+   
+    right: 10%;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+   
+}
+
+.aomsi-heading{
+    position: relative;
+    left: 35%;
+    top: 4rem;
+}
+
+@media screen and (max-width:600px) {
+    .aomsi-heading{
+        position: relative;
+        left: 2%;
+    }
+    .Doctor{
+position: relative;
+left: 7.5rem;
+margin-right: 0rem;
+width: 70%;
+    }
+.btn-css-aomsi{
+    position: relative;
+    left: -7.5%;
+    bottom: 1rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+}
+ 
+}

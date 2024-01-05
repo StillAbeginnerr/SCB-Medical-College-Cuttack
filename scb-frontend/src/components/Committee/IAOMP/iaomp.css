@@ -1,0 +1,114 @@
+.PhotoPos{
+    position: relative;
+    left: 46.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.OCHeading1{
+    position: relative;
+    left: 37%;
+    margin-top: 5rem;
+}
+
+.name-card{
+    position: relative;
+    left: 44%;
+    bottom: 4rem;
+}
+
+.btn-css{
+    width: 18rem;
+    border-radius: 25px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+}
+.first-level{
+    position: relative;
+    right: 1rem;
+}
+.second-leveliaomp{
+    display: flex;
+    position: relative;
+    right: -11rem;
+}
+.Third-Level-2{
+    display: flex;
+    position: relative;
+    right: 1rem;
+}
+
+
+.PosDistance{
+    margin-left: 8rem;
+}
+
+.PosDistance1{
+    margin-left: 4rem;
+}
+
+.PosDistance-2{
+    margin-left: 4.5rem;
+    position: relative;
+    right: 6rem;
+}
+.PhotoPos-2{
+    position: relative;
+    left: 60.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.PosDistance-4{
+   margin-left: 4rem;
+}
+
+.iaomp-container{
+    position: relative;
+    left: 18rem;
+}
+.PhotoPos-3{
+    position: relative;
+    left: 60.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.iaomp-head{
+    position: relative;
+    left: 27%;
+margin-top: 4rem;
+}
+.EventSchedule{
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .iaomp-container{
+        position: relative;
+        left: 0rem;
+    }
+    .iaomp-head{
+position: relative;
+width: 60%;
+    }
+
+    .second-leveliaomp{
+        display: block;
+        position: relative;
+        right: 35%;
+    }
+}
+
+@media screen and (min-width:1900px)
+{
+
+    .main-container{
+        position: relative;
+        left: 25%;
+    }
+    .iaomp-head{
+        position: relative;
+        right: 3rem;
+    margin-top: 4rem;
+    }
+}

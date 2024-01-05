@@ -1,0 +1,23 @@
+.element{
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .EventSchedule{
+    display: flex;
+  }
+  
+.twologos{
+    position: relative;
+    left: 45%;
+}
+.elements-main{
+    display: flex;
+    position: relative;
+    left: 05%;
+    margin: 3rem 3rem;
+}
+
+.para1{
+    margin-top: 2.5rem;
+}

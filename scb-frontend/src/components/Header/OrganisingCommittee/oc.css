@@ -1,0 +1,184 @@
+.PhotoPos{
+    position: relative;
+    left: 46.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.OCHeading1{
+    position: relative;
+    left: 37%;
+    margin-top: 5rem;
+    color: #149BFC;
+}
+.OCHeading12{
+    position: relative;
+    left: 37%;
+    margin-top: 5rem;
+    color: #149BFC;
+}
+
+.name-card{
+    position: relative;
+    left: 44%;
+    bottom: 4rem;
+}
+
+.divider{
+    height:1rem;
+    width: 25%;
+}
+
+.btn-css{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+}
+.first-level{
+    position: relative;
+    right: 1rem;
+}
+.first-levelA{
+    position: relative;
+    right: 1rem;
+}
+
+.second-levelA{
+    display: flex;
+    position: relative;
+    right: 2rem;
+}
+
+.second-level{
+    display: flex;
+    position: relative;
+    right: 2rem;
+}
+.Third-Level-2{
+    display: flex;
+    position: relative;
+    right: 1rem;
+}
+.DocA{
+    position: relative;
+    left: 46.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.PosDistance{
+    margin-left: 8rem;
+}
+
+.PosDistance1A{
+    margin-left: 8rem;
+}
+
+
+.PosDistanceA{
+    position: relative;
+    left: 29%;
+}
+
+.PosDistance-2{
+    margin-left: 4.5rem;
+    position: relative;
+    right: 0rem;
+}
+.PhotoPos-2{
+    position: relative;
+    left: 60.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.PhotoPos-3{
+    position: relative;
+    left: 55.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.PhotoPos-3A{
+    position: relative;
+    left: 55.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.PhotoPos-2A{
+ height: 13rem;
+ width: 13rem;
+ position: relative;
+ left: 60.5%;
+ margin-top: 4.5rem;
+ margin-bottom: 5rem;
+}
+.btn-cssA{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+}
+@media screen and (max-width:600px) {
+   .first-level{
+    position: relative;
+    right: 30%;
+}
+.OCHeading12{
+    position: relative;
+    left: 10%;
+    margin-top: 5rem;
+    color: #149BFC;
+}
+.first-levelA{
+    position: relative;
+    right: 4rem;
+}
+.btn-cssA{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    right: 2rem;
+}
+.second-levelA{
+    display: block;
+    position: relative;
+    right: 30%;
+}
+
+.PosDistance1A{
+    margin-left: 0rem;
+}
+.Third-Level-2A{
+    display: block;
+    position: relative;
+    right: 50%;
+}
+.PhotoPos-2A{
+    height: 13rem;
+    width: 13rem;
+    position: relative;
+    left: 55.5%;
+    margin-top: 4.5rem;
+    margin-bottom: 5rem;
+   }
+   .PhotoPos-3A{
+    position: relative;
+    left: 55.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+ }

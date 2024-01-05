@@ -1,0 +1,51 @@
+.divider{
+    height:1rem;
+    width: 25%;
+}
+
+.about-head{
+    margin: 2.55rem;
+    color:#149BFC ;
+}
+
+.about-para{
+    font-size: larger;
+    margin-bottom: 2.5rem;
+}
+
+.aboutpicture{
+    margin: 3rem 0rem;
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    left: 70%;
+}
+
+
+@media screen and (max-width:600px) {
+    .main-container1{
+height: 40rem;
+    }
+    .aboutpicture{
+        position: relative;
+        top: 0rem;
+    left: 8%;
+        margin-bottom: 10rem;
+    }
+    .divider{
+     margin-top: 25rem;
+        height:1rem;
+        width: 25%;
+    }
+    .about-head{
+        margin: 2.55rem;
+        color:#149BFC ;
+        position: relative;
+        left: 05%;
+        width: 155%;
+    }
+    .about-para{
+        font-size: larger;
+       width: 100%;
+    }
+}

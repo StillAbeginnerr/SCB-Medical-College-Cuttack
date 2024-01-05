@@ -1,0 +1,90 @@
+/* Resetting default margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles for the entire footer */
+  .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+ li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .nav-heading{
+    margin-right: 3rem;
+  }
+  
+  /* Styling for the logo */
+  .footer-logo {
+    flex: 1;
+  }
+  
+  
+  /* Styling for the navigation */
+  .footer-nav {
+    display: flex;
+    flex: 2;
+  }
+  
+  .footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-nav li {
+    margin-bottom: 10px;
+  }
+  .footer-logo1{
+    position: relative;
+    left: 10%;
+    bottom: 9%;
+    height: 17rem;
+    width: 20rem;
+  }
+  /* Styling for the contact information - moved to the right corner */
+  .footer-contact {
+  
+    text-align: right;
+    position: relative;
+    right: 2%;
+    bottom: 0rem;
+    line-height: 2.5;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .footer-nav{
+      display: block;
+    }
+
+    .footer{
+      width: 110%;
+    }
+    .nav-heading{
+  text-align: center;
+  position: relative;
+  left: 1.5rem;
+  margin-top: 2rem;
+    }
+    li{
+      text-align: center;
+    }
+.footer-contact{
+  text-align: center;
+}
+    
+}

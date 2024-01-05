@@ -1,0 +1,73 @@
+.logoSCB{
+    height: 17rem;
+    width: 20rem;
+}
+
+.HeadingMain{
+    width: 45rem;
+}
+.container{
+    display: flex;
+}
+.DownHeading{
+    font-size: 1rem;
+    position: relative;
+    left: 14rem;
+    color: #149BFC;
+}
+.Heading{
+    margin-top: 5rem;
+    position: relative;
+    left: 5rem;
+    color: #149BFC;
+}
+
+
+.logoIAOMR{
+    height: 17rem;
+    width: 20rem;
+    position: relative;
+    left: 0rem;
+}
+
+@media screen and (max-width:600px) {
+   .HeadingMain{
+    position: relative;
+    top: 0rem;
+    left: -9rem;
+    width: 100%;
+   }
+.container{
+    display: block;
+    
+}
+.logoSCB{
+    height: 17rem;
+    width: 20rem;
+    margin-left: .5rem;
+}
+
+.Heading{
+    margin-top: 3rem;
+    position: relative;
+    left: 12rem;
+    width: 23rem;
+    font-weight: bold;
+}
+
+.DownHeading{
+    font-size: 1rem;
+    position: relative;
+    left: 11rem;
+    top: 1rem;
+}
+
+.logoIAOMR{
+    height:19rem;
+    width: 20rem;
+    margin-left: 1rem;
+    position: relative;
+    right: 18rem;
+}
+
+}

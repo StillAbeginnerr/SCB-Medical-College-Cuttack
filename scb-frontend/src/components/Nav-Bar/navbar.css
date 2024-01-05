@@ -1,0 +1,17 @@
+
+   
+.position-fix{
+    position: relative;
+    left: 18rem;
+}
+
+@media screen and (max-width:600px) {
+    .position-fix{
+        position: relative;
+        left: 0rem;
+    }
+
+    .nav{
+        width: 110%;
+    }
+}
