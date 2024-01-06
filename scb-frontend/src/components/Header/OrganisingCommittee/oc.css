@@ -139,7 +139,12 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
+.PhotoPos-2C{
+    position: relative;
+    left: 55.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 .PhotoPos-3{
     position: relative;
     left: 55.5%;
@@ -169,6 +174,12 @@
     background-color: #149BFC;
     position: relative;
     bottom: 2.5rem;
+}
+
+.second-levelD{
+    display: flex;
+    position: relative;
+    right: 5%;
 }
 @media screen and (max-width:600px) {
    .first-level{
@@ -201,6 +212,12 @@
     display: block;
     position: relative;
     right: 30%;
+}
+
+.second-levelD{
+    display: flex;
+    position: relative;
+    right: 2rem;
 }
 
 .PosDistance1A{
@@ -242,6 +259,12 @@
    .PhotoPos-3A{
     position: relative;
     left: 55.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.PhotoPos-2C{
+    position: relative;
+    left: 60.5%;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }

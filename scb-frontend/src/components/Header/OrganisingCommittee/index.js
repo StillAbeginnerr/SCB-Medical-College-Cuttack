@@ -145,9 +145,9 @@ thirdlevelMain */}
 </div>
 
 {/* thirdlevel3 */}
-<div className='second-level'>
+<div className='second-levelD'>
   <div className='PosDistance1AD'>
-    <img className='PhotoPos-2' src={Doctor12} alt=''></img>
+    <img className='PhotoPos-2C' src={Doctor12} alt=''></img>
     <div className='name-card'>
       <button className='btn-css-d'>DR. DEBAJYOTI BARDHAN <br></br>
       TREASURER</button>
