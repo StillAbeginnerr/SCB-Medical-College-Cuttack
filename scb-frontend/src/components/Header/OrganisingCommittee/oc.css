@@ -4,7 +4,16 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
+.dividr{
+    width: 25%;
+    }
+    .dividr1{
+        width: 25%;
+        }.dividr2{
+            width: 25%;
+            }.dividr3{
+                width: 25%;
+                }
 .OCHeading1{
     position: relative;
     left: 37%;
@@ -182,6 +191,22 @@
     right: 5%;
 }
 @media screen and (max-width:600px) {
+    .dividr{
+        display: none;
+        position: relative;
+        top: 13rem;
+        margin: 4rem 0rem;
+        min-width: 110%;
+        max-height: 3.5rem;
+        }
+        .dividr1{
+            display: none;
+            width: 35%;
+            }.dividr2{            display: none;
+                width: 35%;
+                }.dividr3{            display: none;
+                    width: 35%;
+                    }
    .first-level{
     position: relative;
     right: 30%;
@@ -195,7 +220,7 @@
 }
 .first-levelA{
     position: relative;
-    right: 4rem;
+    right: 2rem;
 }
 .btn-cssA{
     width: 16rem;
@@ -217,7 +242,7 @@
 .second-levelD{
     display: flex;
     position: relative;
-    right: 2rem;
+    right: 5rem;
 }
 
 .PosDistance1A{
