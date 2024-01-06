@@ -18,7 +18,7 @@
 }
 .classbody{
     position: relative;
-    top: 30%;
+    top: 26%;
     left: 15%;
     margin-top: 1rem;
 }
@@ -35,4 +35,23 @@
     left: 44%;
     width: 100%;
     margin-top: 2rem;
+}
+
+@media screen and (max-width:600px) {
+    .maincard{
+        display: block;
+        width: 80%;
+    }
+    .maincard-1{
+        width: 80%;
+    }
+    .classbody-2{
+        width: 70%;
+    }
+    .classbody{
+        width: 70%;
+    }
+    .contactheading{
+        width: 55%;
+    }
 }
