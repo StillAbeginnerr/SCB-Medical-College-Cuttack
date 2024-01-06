@@ -27,7 +27,7 @@ import Doctor22A from '../../assets/DoctorPhotos/IAOMR/22.jpg';
 import Doctor24A from '../../assets/DoctorPhotos/IAOMR/24.jpg';
 import Doctor25A from '../../assets/DoctorPhotos/IAOMR/25.jpg';
 import Doctor26A from '../../assets/DoctorPhotos/IAOMR/26.jpg';
-
+import line from '../../assets/Divider.png'
 
 import './iaomr.css'
 import LogoSection from '../../Logo-Section';
@@ -77,7 +77,13 @@ IAOMR OFFICE BEARERS</h1>
     </div>
   </div>
 </div>
-
+<img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
 <div className='second-level'>
   <div className='PosDistance-iaomrleftcorner'>
     <img className='PhotoPos-1A' src={Doctor4A} alt=''></img>
@@ -98,7 +104,13 @@ IAOMR OFFICE BEARERS</h1>
     </div>
   </div>
 </div>
-
+<img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
        
        <div className='second-level'>
         <div className='PosDistance-iaomrleftcorner'>
@@ -125,7 +137,13 @@ VICE PRESIDENT</button>
        </div>
         </div>
        </div>
-       
+       <img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
        <div className='second-levelC'>
         <div className='PosDistance-iaomrleftcornerA'>
         <img className='PhotoPos-1A' src={Doctor10A} alt=''></img>
@@ -143,7 +161,13 @@ HEAD OFFICE JOINT SECRETARY</button>
        </div>
         </div>
        
-       </div>
+       </div><img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
        <div className='second-level'>
   <div className='PosDistance-iaomrleftcorner'>
     <img className='PhotoPos-1B' src={Doctor12A} alt=''></img>
@@ -169,7 +193,13 @@ HEAD OFFICE JOINT SECRETARY</button>
       <button className='btn-css-iaomr'>DR. ASHOK L<br></br>REGISTERED OFFICE JOINT SECRETARY</button>
     </div>
   </div>
-</div>
+</div><img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
 <div className='second-level'>
   <div className='PosDistance-iaomrleftcorner'>
     <img className='PhotoPos-1A' src={Doctor16A} alt=''></img>
@@ -190,7 +220,13 @@ HEAD OFFICE JOINT SECRETARY</button>
     </div>
   </div>
 </div>
-
+<img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
 <div className='second-level'>
   <div className='PosDistance-iaomrleftcorner'>
     <img className='PhotoPos-1A' src={Doctor19A} alt=''></img>
@@ -210,7 +246,13 @@ HEAD OFFICE JOINT SECRETARY</button>
       <button className='btn-css-iaomr'>DR. NIKHIL RAJ</button>
     </div>
   </div>
-</div>
+</div><img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
 <div className='second-level'>
   <div className='PosDistance-iaomrleftcorner'>
     <img className='PhotoPos-1A' src={Doctor22A} alt=''></img>
@@ -230,7 +272,13 @@ HEAD OFFICE JOINT SECRETARY</button>
       <button className='btn-css-iaomr'>DR. RANJEETA MEHTA</button>
     </div>
   </div>
-  </div>
+  </div><img className='dividra' src={line} alt=''></img>
+    
+    <img className='dividr1a' src={line} alt=''></img>
+    
+    <img className='dividr2a' src={line} alt=''></img>
+    
+    <img className='dividr3a' src={line} alt=''></img>
 <div className='second-level'>
   <div className='PosDistance-iaomr-center-3'>
     <img className='PhotoPos-1A' src={Doctor26A} alt=''></img>

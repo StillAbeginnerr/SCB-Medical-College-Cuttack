@@ -4,7 +4,21 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
+.dividra{
+    width: 25%;
+    position: relative;
+    right: 19%;
+    }
+    .dividr1a{ position: relative;
+        right: 19%;
+        width: 25%;
+        }.dividr2a{ position: relative;
+            right: 19%;
+            width: 25%;
+            }.dividr3a{ position: relative;
+                right: 19%;
+                width: 25%;
+                }
 .OCHeading1{
     position: relative;
     left: 37%;
@@ -187,10 +201,27 @@
 }
 @media screen and (max-width:600px) {
 
+.MainContainer{
+    width: 70%;
+    position: relative;
+left: 5%;
+}
+
+    .dividra{
+display: none;
+        }
+        .dividr1a{
+            display: none;
+            width: 35%;
+            }.dividr2a{            display: none;
+                width: 35%;
+                }.dividr3a{            display: none;
+                    width: 35%;
+                    }
     .btn-css-iaomr-2{
         position: relative;
         top: 3rem;
-        right: 6.5rem;
+        right: 5.5rem;
         width: 18rem;
         height: 6rem;
         border-radius: 25px;
@@ -230,7 +261,7 @@
     .btn-css-iaomr-1{
         position: relative;
         top: 3rem;
-        right: 8rem;
+        right: 7rem;
         width: 16rem;
         height: 6rem;
         border-radius: 25px;
@@ -241,7 +272,7 @@
 .btn-css-iaomr{
     position: relative;
     top: 3rem;
-    right: 6rem;
+    right: 5rem;
     width: 16rem;
     height: 4rem;
     border-radius: 25px;

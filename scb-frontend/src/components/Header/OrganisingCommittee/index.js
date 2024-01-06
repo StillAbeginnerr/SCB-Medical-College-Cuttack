@@ -25,6 +25,13 @@ function OrganisingCommittee() {
   return (
    <>
    <div className='MainContainer'>
+    <img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
     <h1 className='OCHeading12'>ORGANISING COMMITTEE</h1>
 {/* 
     level1-1 */}
@@ -60,6 +67,13 @@ ORGANISING CHAIRMAN</button>
        </div>
 
 
+       <img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
        
        
 {/* third-level1 */}
@@ -100,6 +114,13 @@ ORGANISING CHAIRMAN</button>
   </div>
 </div>
 
+<img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
 {/* third-level2 */}
 <div className='Third-Level-3A'>
   <div className='PosDistanceAC'>
@@ -111,6 +132,13 @@ ORGANISING CHAIRMAN</button>
   </div>
   
   </div>
+    <img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
 {/* 
 thirdlevelMain */}
 <div className='Third-Level-2A'>
@@ -144,6 +172,13 @@ thirdlevelMain */}
   </div>
 </div>
 
+<img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
 {/* thirdlevel3 */}
 <div className='second-levelD'>
   <div className='PosDistance1AD'>
@@ -174,6 +209,13 @@ thirdlevelMain */}
 
 
    </div>
+    <img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
    </>
   )
 }

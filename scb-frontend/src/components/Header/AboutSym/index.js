@@ -8,6 +8,13 @@ function AboutSym() {
   return (
     <>
     <div className='main-container1'>
+    <img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
     <div className='container' style={{display:'block'}}>
     <h1 className='about-head'>ABOUT SYMPOSIUM</h1>
 
@@ -27,8 +34,16 @@ function AboutSym() {
     </div>
     <img className='aboutpicture' src={aboutpicture}></img>
     </div>
+
+    <img className='dividr' src={line} alt=''></img>
+    
+    <img className='dividr1' src={line} alt=''></img>
+    
+    <img className='dividr2' src={line} alt=''></img>
+    
+    <img className='dividr3' src={line} alt=''></img>
 {/*     
-    <img className='divider' src={line} alt=''></img>
+  
        
        <img className='divider' src={line} alt=''></img>
        

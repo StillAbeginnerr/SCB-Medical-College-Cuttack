@@ -1,8 +1,13 @@
-.divider{
-    height:1rem;
-    width: 25%;
+.dividr{
+width: 25%;
 }
-
+.dividr1{
+    width: 25%;
+    }.dividr2{
+        width: 25%;
+        }.dividr3{
+            width: 25%;
+            }
 .about-head{
     margin: 2.55rem;
     color:#149BFC ;
@@ -20,9 +25,36 @@
     position: relative;
     left: 70%;
 }
+.line-1{
+}
+.line-2{
 
+}
+.line-3{
+
+}
+.line-4{
+    
+}
 
 @media screen and (max-width:600px) {
+
+    .dividr{
+        position: relative;
+        top: 13rem;
+        margin-bottom: 12rem;
+        min-width: 110%;
+        max-height: 3.5rem;
+        }
+        .dividr1{
+            display: none;
+            width: 35%;
+            }.dividr2{            display: none;
+                width: 35%;
+                }.dividr3{            display: none;
+                    width: 35%;
+                    }
+
     .main-container1{
 height: 40rem;
     }
