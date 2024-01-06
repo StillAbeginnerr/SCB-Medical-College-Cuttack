@@ -27,9 +27,38 @@
     width: 100%;
     object-fit: cover;
   }
+  .overlayheading{
+    position: relative;
+    bottom: 28rem;
+    left: 30%;
+    color: #ffffff;
+    z-index: 100;
+  }
+  .overlayheading2{
+    position: relative;
+    bottom: 18rem;
+    left: 42%;
+    color: #ffffff;
+    z-index: 100;
+  }
 @media screen and (max-width:600px) {
 .swiper{
   width: 110%;
+}
+.overlayheading{
+  position: relative;
+  bottom: 20rem;
+  left: 30%;
+  color: #ffffff;
+  z-index: 100;
+  width: 60%;
+}
+.overlayheading2{
+  position: relative;
+  bottom: 18rem;
+  left: 32%;
+  color: #ffffff;
+  z-index: 100;  width: 60%;
 }
 }
   

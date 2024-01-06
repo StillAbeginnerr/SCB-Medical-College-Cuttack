@@ -43,7 +43,8 @@ export default function Header() {
         <SwiperSlide><img className='HeadImgSize' src={Head3} alt=''/></SwiperSlide>
         <SwiperSlide><img className='HeadImgSize' src={Head4} alt=''/></SwiperSlide>
       </Swiper>
-      
+      <h1 className='overlayheading'>21st NATIONAL OOO SYMPOSIUM 2024</h1>
+<h1 className='overlayheading2'>8th-10th March</h1>
      
     </>
   );
