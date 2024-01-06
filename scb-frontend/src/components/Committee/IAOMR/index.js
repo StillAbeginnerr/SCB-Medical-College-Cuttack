@@ -50,9 +50,12 @@ function IAOMR() {
 
        {/* thirdlevel3 */}
        <div className='iaomr-container'>
+        <div className='second-le'>
         <img className='iaomrlogo' src={iaomrlogo} alt=''></img>
-        <h1 style={{position:'relative',left:'18%',marginTop:'4rem',marginBottom:'4rem',color:'#149BFC'}}>
+        <h1 className='iaomr-para'>
 IAOMR OFFICE BEARERS</h1>
+        </div>
+        
 
 <div className='second-level'>
   <div className='PosDistance-iaomrleftcorner'>
@@ -64,7 +67,7 @@ IAOMR OFFICE BEARERS</h1>
   <div className='PosDistance-iaomr-center'>
     <img className='PhotoPos-1A' src={Doctor2A} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css-iaomr-1'>DR. SHIVAPRASAD S<br></br>HONOURABLE GENERAL SECRETARY</button>
+      <button className='btn-css-iaomr-2'>DR. SHIVAPRASAD S<br></br>HONOURABLE GENERAL SECRETARY</button>
     </div>
   </div>
   <div className='PosDistance-rightcorner'>
@@ -123,19 +126,19 @@ VICE PRESIDENT</button>
         </div>
        </div>
        
-       <div className='second-level' style={{position:'relative',left:'10%'}}>
-        <div className='PosDistance-iaomrleftcorner'>
+       <div className='second-levelC'>
+        <div className='PosDistance-iaomrleftcornerA'>
         <img className='PhotoPos-1A' src={Doctor10A} alt=''></img>
        <div className='name-card'>
-        <button className='btn-css-iaomr'>DR. PRASHANTHI REDDY
+        <button className='btn-css-iaomr-1'>DR. PRASHANTHI REDDY
 <br></br>
 HEAD OFFICE JOINT SECRETARY</button>
        </div>
         </div>
-        <div className='PosDistance-rightcorner'>
+        <div className='PosDistance-rightcornerA'>
         <img className='PhotoPos-1A' src={Doctor11A} alt=''></img>
        <div className='name-card'>
-        <button className='btn-css-iaomr'>DR. ADIT SRIVASTAVA<br></br>
+        <button className='btn-css-iaomr-1'>DR. ADIT SRIVASTAVA<br></br>
         HEAD OFFICE JOINT SECRETARY</button>
        </div>
         </div>
