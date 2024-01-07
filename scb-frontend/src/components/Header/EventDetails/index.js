@@ -13,28 +13,28 @@ function EventDetails() {
     <>
     <div className='EventSchedule'>
     <div className='elements-main'>
-    <img className='element' src={element1} alt=''></img>
+    <img className='element' src={element1} alt=''/>
     <h6 className='para1'>ORAL FRONTIERS:<br></br>
 UNITING EXPERTISE AND
 UNVEILING THE POTENTIAL
 </h6>
     </div>
     <div className='elements-main'>
-    <img className='element' src={element2} alt=''></img>
+    <img className='element' src={element2} alt=''/>
     <h6 className='para1'>Event Date:<br></br>
 8th-10th March 2024
 </h6>
     </div>
     <div className='elements-main'>
-    <img className='element' src={element3} alt=''></img>
+    <img className='element' src={element3} alt=''/>
     <h6 className='para1'>Venue:<br></br>
 SCB Medical College and Hospital
 </h6>
     </div>
-
+   
   </div>
+  <img className='twologos' src={twologos} alt=''></img>
          
-         <img className='twologos' src={twologos} alt=''></img>
          {/* <div>
          <img className='divider' src={line} alt=''></img>
        
