@@ -197,6 +197,12 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+.PhotoPos-3AV{
+    position: relative;
+    left: 55.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 .PhotoPos-2A{
  height: 13rem;
  width: 13rem;
@@ -323,6 +329,12 @@
    .PhotoPos-3A{
     position: relative;
     left: 65.5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.PhotoPos-3AV{
+    position: relative;
+    left: 75.5%;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }

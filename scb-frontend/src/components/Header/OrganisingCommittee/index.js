@@ -150,7 +150,7 @@ thirdlevelMain */}
     </div>
   </div>
   <div className='PosDistanceAF'>
-    <img className='PhotoPos-3A' src={Doctor9} alt=''></img>
+    <img className='PhotoPos-3AV' src={Doctor9} alt=''></img>
     <div className='name-card'>
       <button className='btn-css-d'>DR. RACHNA RATH <br></br>
       SCIENTIFIC CHAIRMAN</button>

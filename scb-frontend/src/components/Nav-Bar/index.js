@@ -10,7 +10,7 @@ import './navbar.css'
 function NavBar() {
   return (
     <>
-    <div className='nav' style={{backgroundColor:'Black',marginTop:'2rem'}}>
+    <div className='nav' style={{backgroundColor:'#149BFC',marginTop:'2rem'}}>
     <ul className='nav position-fix'>
     <Nav.Item>
         <Nav.Link href="/">Home</Nav.Link>
