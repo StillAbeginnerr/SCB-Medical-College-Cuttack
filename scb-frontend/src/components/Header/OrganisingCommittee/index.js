@@ -77,12 +77,12 @@ ORGANISING CHAIRMAN</button>
        
        
 {/* third-level1 */}
-<div className='second-levelA'>
+<div className='second-levelAZ'>
  
   <div className='PosDistance1AB posmob'>
     <img className='PhotoPos-2' src={Doctor5} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>Dr. SHREEYAM MOHAPATRA<br></br>
+      <button className='btn-css1A'>Dr. SHREEYAM MOHAPATRA<br></br>
        SECRETARY</button>
     </div>
   </div>
@@ -90,18 +90,18 @@ ORGANISING CHAIRMAN</button>
 </div>
 
 {/* newlevel */}
-<div className='second-levelA'>
-  <div className='PosDistance1A'>
+<div className='second-levelAZ'>
+  <div className='PosDistance1AX'>
     <img className='PhotoPos-2A' src={Doctor15} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>Dr. Sthitaprajna lenka<br></br>
+      <button className='btn-css1As'>Dr. Sthitaprajna lenka<br></br>
       JOINT SECRETARY</button>
     </div>
   </div>
-  <div className='PosDistance1A'>
+  <div className='PosDistance1AX'>
     <img className='PhotoPos-2A' src={Doctor6} alt=''></img>
     <div className='name-card'>
-      <button className='btn-css'>DR. SHADAB ALI BAIG <br></br>
+      <button className='btn-css1As'>DR. SHADAB ALI BAIG <br></br>
       JOINT SECRETARY</button>
     </div>
   </div>

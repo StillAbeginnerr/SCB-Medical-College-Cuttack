@@ -7,7 +7,8 @@ import element3 from '../../assets/element3.png'
 import line from '../../assets/Divider.png'
 
 import twologos from '../EventDetails/twologos.png'
-
+import twologoo from '../EventDetails/WhatsApp Image 2024-01-07 at 10.04.08 PM.jpeg'
+import twologooA from '../../assets/IAOMR.png'
 function EventDetails() {
   return (
     <>
@@ -34,7 +35,8 @@ SCB Medical College and Hospital
    
   </div>
   <img className='twologos' src={twologos} alt=''></img>
-         
+  <img className='twologoo' src={twologoo} alt=''></img>
+  <img className='twologoo-1' src={twologooA} alt=''></img>
          {/* <div>
          <img className='divider' src={line} alt=''></img>
        
