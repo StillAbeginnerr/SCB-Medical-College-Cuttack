@@ -37,14 +37,14 @@ function IAOMP() {
         {/* <h1 className='iaomp-head'>IAOMP Committee</h1> */}
        <div className='second-leveliaomp'>
         <div className='PosDistance1'>
-        <img className='PhotoPos-2' src={DoctorA} alt=''></img>
+        <img className='PhotoPos-2N' src={DoctorA} alt=''></img>
        <div className='name-card'>
         <button className='btn-css'>DR. N CHAITANYA BABU<br></br>
         President</button>
        </div>
         </div>
         <div className='PosDistance1'>
-        <img className='PhotoPos-2' src={DoctorB} alt=''></img>
+        <img className='PhotoPos-2N' src={DoctorB} alt=''></img>
        <div className='name-card'>
         <button className='btn-css'>DR. NADEEM JEDDY<br></br>
         Honourable Secretary</button>

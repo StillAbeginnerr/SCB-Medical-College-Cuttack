@@ -1,6 +1,10 @@
 import React from 'react'
 // import Card from 'react-bootstrap/Card';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import Doctor1A from '../../assets/DoctorPhotos/IAOMR/1.jpg';
 import Doctor2A from '../../assets/DoctorPhotos/IAOMR/2.jpg';
 import Doctor3A from '../../assets/DoctorPhotos/IAOMR/3.jpg';
@@ -57,240 +61,315 @@ IAOMR OFFICE BEARERS</h1>
         </div>
         
 
-<div className='second-level'>
-  <div className='PosDistance-iaomrleftcorner'>
-    <img className='PhotoPos-1A' src={Doctor1A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. NEETA MISRA<br></br>PRESIDENT </button>
-    </div>
-  </div>
-  <div className='PosDistance-iaomr-center'>
-    <img className='PhotoPos-1A' src={Doctor2A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr-2'>DR. SHIVAPRASAD S<br></br>HONOURABLE GENERAL SECRETARY</button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner'>
-    <img className='PhotoPos-1A' src={Doctor3A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. K SRI KRISHNA<br></br>PRESIDENT ELECT</button>
-    </div>
-  </div>
+<Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1A' src={Doctor1A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. NEETA MISRA<br></br>PRESIDENT </button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center'>
+                <img className='PhotoPos-1A' src={Doctor2A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr-2'>DR. SHIVAPRASAD S<br></br>HONOURABLE GENERAL SECRETARY</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner'>
+                <img className='PhotoPos-1A' src={Doctor3A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. K SRI KRISHNA<br></br>PRESIDENT ELECT</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Second Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1A' src={Doctor4A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. AVINASH TEJASVI M L<br></br>HEAD OFFICE TREASURER</button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center'>
+                <img className='PhotoPos-1A' src={Doctor5A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. SANDEEP PAGARE<br></br>VICE PRESIDENT </button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner'>
+                <img className='PhotoPos-1A' src={Doctor6A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. ABHISHEK SINHA<br></br>VICE PRESIDENT</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Third Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1A' src={Doctor7A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. C SARAVANA BHARATHI<br></br>VICE PRESIDENT </button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center'>
+                <img className='PhotoPos-1A' src={Doctor8A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. SUNALI KHANNA<br></br>VICE PRESIDENT</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner'>
+                <img className='PhotoPos-1A' src={Doctor9A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. SRIDEVI KODURI<br></br>VICE PRESIDENT</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Fourth Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-levelC'>
+              <div className='PosDistance-iaomrleftcornerA'>
+                <img className='PhotoPos-1A' src={Doctor10A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr-1'>DR. PRASHANTHI REDDY<br></br>HEAD OFFICE JOINT SECRETARY</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcornerA'>
+                <img className='PhotoPos-1A' src={Doctor11A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr-1'>DR. ADIT SRIVASTAVA<br></br>HEAD OFFICE JOINT SECRETARY</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Fifth Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-levelB'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1B' src={Doctor12A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. MANISHA M KHORATE<br></br>EDITOR IN CHIEF</button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center-2'>
+                <img className='PhotoPos-1B' src={Doctor13A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. RAMAMURTHY T K<br></br>REGISTERED OFFICE SECRETARY</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner-1'>
+                <img className='PhotoPos-1B' src={Doctor14A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. DEEPAK T A<br></br>REGISTERED OFFICE TREASURER</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner-2'>
+                <img className='PhotoPos-1B' src={Doctor15A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. ASHOK L<br></br>REGISTERED OFFICE JOINT SECRETARY</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Sixth Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1A' src={Doctor16A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. G V PRAMOD</button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center'>
+                <img className='PhotoPos-1A' src={Doctor17A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. Y PAVAN KUMAR</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner'>
+                <img className='PhotoPos-1A' src={Doctor18A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. MALOTH KOTYA NAIK</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Seventh Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1A' src={Doctor19A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. T SARAVANAN</button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center'>
+                <img className='PhotoPos-1A' src={Doctor20A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. UTHKAL M P</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner'>
+                <img className='PhotoPos-1A' src={Doctor21A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. NIKHIL RAJ</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Eighth Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomrleftcorner'>
+                <img className='PhotoPos-1A' src={Doctor22A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. RAMNARAYAN B K</button>
+                </div>
+              </div>
+              <div className='PosDistance-iaomr-center'>
+                <img className='PhotoPos-1A' src={Doctor24A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. RACHANA PRABHU</button>
+                </div>
+              </div>
+              <div className='PosDistance-rightcorner'>
+                <img className='PhotoPos-1A' src={Doctor25A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. RANJEETA MEHTA</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
+
+      {/* Lines */}
+      <img className='dividra' src={line} alt='' />
+      <img className='dividr1a' src={line} alt='' />
+      <img className='dividr2a' src={line} alt='' />
+      <img className='dividr3a' src={line} alt='' />
+
+      {/* Ninth Second-level div */}
+      <Container>
+        <Row>
+        <div className='containn'>
+          <Col>
+            <div className='second-level'>
+              <div className='PosDistance-iaomr-center-3'>
+                <img className='PhotoPos-1A' src={Doctor26A} alt='' />
+                <div className='name-card'>
+                  <button className='btn-css-iaomr'>DR. DEEPA M S</button>
+                </div>
+              </div>
+            </div>
+          </Col>
+          </div>
+        </Row>
+      </Container>
 </div>
-<img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-<div className='second-level'>
-  <div className='PosDistance-iaomrleftcorner'>
-    <img className='PhotoPos-1A' src={Doctor4A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. AVINASH TEJASVI M L<br></br>HEAD OFFICE TREASURER</button>
-    </div>
-  </div>
-  <div className='PosDistance-iaomr-center'>
-    <img className='PhotoPos-1A' src={Doctor5A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. SANDEEP PAGARE<br></br>VICE PRESIDENT </button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner'>
-    <img className='PhotoPos-1A' src={Doctor6A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. ABHISHEK SINHA<br></br>VICE PRESIDENT</button>
-    </div>
-  </div>
-</div>
-<img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
        
-       <div className='second-level'>
-        <div className='PosDistance-iaomrleftcorner'>
-        <img className='PhotoPos-1A' src={Doctor7A} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-css-iaomr'>DR. C SARAVANA BHARATHI
-<br></br>
-VICE PRESIDENT </button>
-       </div>
-        </div>
-        <div className='PosDistance-iaomr-center'>
-        <img className='PhotoPos-1A' src={Doctor8A} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-css-iaomr'>DR. SUNALI KHANNA
-<br></br>
-VICE PRESIDENT</button>
-       </div>
-        </div>
-        <div className='PosDistance-rightcorner'>
-        <img className='PhotoPos-1A' src={Doctor9A} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-css-iaomr'>DR. SRIDEVI KODURI
-<br></br>VICE PRESIDENT</button>
-       </div>
-        </div>
-       </div>
-       <img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-       <div className='second-levelC'>
-        <div className='PosDistance-iaomrleftcornerA'>
-        <img className='PhotoPos-1A' src={Doctor10A} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-css-iaomr-1'>DR. PRASHANTHI REDDY
-<br></br>
-HEAD OFFICE JOINT SECRETARY</button>
-       </div>
-        </div>
-        <div className='PosDistance-rightcornerA'>
-        <img className='PhotoPos-1A' src={Doctor11A} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-css-iaomr-1'>DR. ADIT SRIVASTAVA<br></br>
-        HEAD OFFICE JOINT SECRETARY</button>
-       </div>
-        </div>
-       
-       </div><img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-       <div className='second-level'>
-  <div className='PosDistance-iaomrleftcorner'>
-    <img className='PhotoPos-1B' src={Doctor12A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. MANISHA M KHORATE<br></br>EDITOR IN CHIEF</button>
-    </div>
-  </div>
-  <div className='PosDistance-iaomr-center-2'>
-    <img className='PhotoPos-1B' src={Doctor13A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. RAMAMURTHY T K<br></br>REGISTERED OFFICE SECRETARY</button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner-1'>
-    <img className='PhotoPos-1B' src={Doctor14A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. DEEPAK T A<br></br>REGISTERED OFFICE TREASURER</button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner-2'>
-    <img className='PhotoPos-1B' src={Doctor15A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. ASHOK L<br></br>REGISTERED OFFICE JOINT SECRETARY</button>
-    </div>
-  </div>
-</div><img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-<div className='second-level'>
-  <div className='PosDistance-iaomrleftcorner'>
-    <img className='PhotoPos-1A' src={Doctor16A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. G V PRAMOD</button>
-    </div>
-  </div>
-  <div className='PosDistance-iaomr-center'>
-    <img className='PhotoPos-1A' src={Doctor17A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. Y PAVAN KUMAR</button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner'>
-    <img className='PhotoPos-1A' src={Doctor18A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. MALOTH KOTYA NAIK</button>
-    </div>
-  </div>
-</div>
-<img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-<div className='second-level'>
-  <div className='PosDistance-iaomrleftcorner'>
-    <img className='PhotoPos-1A' src={Doctor19A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. T SARAVANAN</button>
-    </div>
-  </div>
-  <div className='PosDistance-iaomr-center'>
-    <img className='PhotoPos-1A' src={Doctor20A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. UTHKAL M P</button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner'>
-    <img className='PhotoPos-1A' src={Doctor21A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. NIKHIL RAJ</button>
-    </div>
-  </div>
-</div><img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-<div className='second-level'>
-  <div className='PosDistance-iaomrleftcorner'>
-    <img className='PhotoPos-1A' src={Doctor22A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. RAMNARAYAN B K</button>
-    </div>
-  </div>
-  <div className='PosDistance-iaomr-center'>
-    <img className='PhotoPos-1A' src={Doctor24A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. RACHANA PRABHU</button>
-    </div>
-  </div>
-  <div className='PosDistance-rightcorner'>
-    <img className='PhotoPos-1A' src={Doctor25A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. RANJEETA MEHTA</button>
-    </div>
-  </div>
-  </div><img className='dividra' src={line} alt=''></img>
-    
-    <img className='dividr1a' src={line} alt=''></img>
-    
-    <img className='dividr2a' src={line} alt=''></img>
-    
-    <img className='dividr3a' src={line} alt=''></img>
-<div className='second-level'>
-  <div className='PosDistance-iaomr-center-3'>
-    <img className='PhotoPos-1A' src={Doctor26A} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-css-iaomr'>DR. DEEPA M S</button>
-    </div>
-  </div>
-</div>
 
        </div>
-     
-   </div>
    </>
   )
 }

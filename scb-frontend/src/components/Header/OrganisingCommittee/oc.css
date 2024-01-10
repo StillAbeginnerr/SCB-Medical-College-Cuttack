@@ -68,7 +68,11 @@
     background-color: #149BFC;
     position: relative;
     bottom: 2.5rem;
-    left: 1rem;
+    left: -1rem;
+}
+.PosDistance1AB{
+    position: relative;
+    left: 19rem;
 }
 .btn-css-d{
     width: 16rem;
@@ -80,19 +84,53 @@
     position: relative;
     bottom: 2.5rem;
 }
+.btn-cssY{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    left: .5rem;
+}
+.btn-cssZ{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    left: 3%;
+}
+.btn-cssX{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    left: .41rem;
+}
 .first-level{
     position: relative;
     right: 1rem;
 }
 .first-levelA{
     position: relative;
-    right: 1rem;
+    right: -27rem;
 }
 
 .second-levelA{
     display: flex;
     position: relative;
-    right: 2rem;
+    right: -5rem;
+    
 }
 .second-levelAZ{
     display: flex;
@@ -113,7 +151,7 @@
 .Third-Level-2A{
     display: flex;
     position: relative;
-    right: 1rem;
+    right: 2rem;
 }
 .DocA{
     position: relative;
@@ -127,17 +165,17 @@
 }
 
 .PosDistance1A{
-    margin-left: 8rem;
+    margin-left: 9rem;
 }
 
 .PosDistance1AX{
-    margin-left: 8rem;
+    margin-left: 4rem;
 }
 
 .PosDistance1AB{
     margin-left: 8rem;
     position: relative;
-    left: 27%;
+    left: 77%;
 }
 .PosDistance1AD{
     margin-left: 8rem;
@@ -150,12 +188,16 @@
 }
 
 .PosDistanceAF{
-    margin-right:7rem;
+    margin-right:4.5rem;
+}
+
+.PosDistanceC{
+    margin-left: 4rem;
 }
 
 .PosDistanceAC{
     position: relative;
-    left: -10%;
+    left: 31rem;
 }
 .btn-css-dAC{
     width: 16rem;
@@ -175,7 +217,7 @@
 }
 .PhotoPos-2{
     position: relative;
-    left: 60.5%;
+    left: 46.5%;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -204,15 +246,19 @@
     margin-bottom: 5rem;
 }
 .PhotoPos-2A{
- height: 13rem;
- width: 13rem;
- position: relative;
- left: 60.5%;
- margin-top: 4.5rem;
- margin-bottom: 5rem;
+    height: 13rem;
+    width: 13rem;
+    position: relative;
+    left: 57.5%;
+    margin-top: 4.5rem;
+    margin-bottom: 5rem;
+}
+
+.MainContainer{
+    width: auto;
 }
 .btn-cssA{
-    width: 16rem;
+    width: 17rem;
     height: 4rem;
     border-radius: 15px;
     border: 0px;
@@ -220,12 +266,13 @@
     background-color: #149BFC;
     position: relative;
     bottom: 2.5rem;
+    right: 2rem;
 }
 
 .second-levelD{
     display: flex;
     position: relative;
-    right: 5%;
+    right: 1%;
 }
 @media screen and (max-width:600px) {
     .dividr{
@@ -255,9 +302,20 @@
 }
 .first-levelA{
     position: relative;
-    right: 2rem;
+    right: 5rem;
 }
 .btn-cssA{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    right: 1rem;
+}
+.btn-cssY{
     width: 16rem;
     height: 4rem;
     border-radius: 15px;
@@ -266,7 +324,7 @@
     background-color: #149BFC;
     position: relative;
     bottom: 2.5rem;
-    right: 2rem;
+    left: 3.5rem;
 }
 .second-levelA{
     display: block;
@@ -285,23 +343,28 @@
 }
 
 .PosDistance1A{
-    margin-left: 0rem;
+    margin-left: 1rem;
 }
 
 .PosDistance1AX{
     margin-left: 0rem;
     position: relative;
-    left: 1.5rem;
+    left: -5rem;
 }
 .PosDistanceAF{
-  margin-left: 0rem;
-  position: relative;
-  left: 40%;
+    position: relative;
+    left: 33%;
 }
 .PosDistance1AD{
     margin-left: 0rem;
     position: relative;
-    left: 0%;
+    left: 15%;
+}
+
+.PosDistanceC{
+    position: relative;
+    left: -7.2rem;
+
 }
 
 .PosDistance1AB{
@@ -312,17 +375,27 @@
     position: relative;
     right: 48%;
 }
-
+.btn-cssZ{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    left: 3%;
+}
 .Third-Level-3A{
     display: block;
     position: relative;
-    right: 55%;
+    right: 63%;
 }
 .PhotoPos-2A{
-    height: 13rem;
-    width: 13rem;
+    height: 12rem;
+    width: 12rem;
     position: relative;
-    left: 55.5%;
+    left: 50.5%;
     margin-top: 4.5rem;
     margin-bottom: 5rem;
    }
@@ -334,7 +407,7 @@
 }
 .PhotoPos-3AV{
     position: relative;
-    left: 75.5%;
+    left: 61.5%;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -344,12 +417,28 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+.btn-cssX{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+    left: 0.5rem;
+}
 .name-card{
     width: 60%;
 }
 .divider{
     height:1rem;
     width: 50%;
+}
+.secondL{
+    position: relative;
+    left: 2.0rem;
+    display: flex;
 }
 
 .btn-css{
@@ -358,7 +447,7 @@
 }
 .btn-css1A{
     position: relative;
-    left: -6%;
+    left: -21%;
 }
 .btn-css1As{
     position: relative;
@@ -373,17 +462,17 @@
     background-color: #149BFC;
     position: relative;
     bottom: 2.5rem;
-    left: 7%;
+    left: 15%;
 }
 .PosDistance1AB{
     margin-left: 8rem;
     position: relative;
-    left: -15%;
+    left: -23%;
 }
 .PosDistanceAC{
     margin-left: 8rem;
     position: relative;
-    left: 5%;
+    left: 9%;
 }
 
 
@@ -398,4 +487,242 @@
     bottom: 2.5rem;
     left: 7.5%;
 }
+ }
+
+ @media screen and (min-width:1281px) and (max-width:1399px) {
+    .btn-cssA{
+        width: 14.3rem;
+        height: 6rem;
+        border-radius: 15px;
+        border: 0px;
+        color: white;
+        background-color: #149BFC;
+        position: relative;
+        bottom: 2.5rem;
+        right: 0.5rem;
+    }
+    .PosDistanceAF {
+        margin-right: 3.5rem;
+    }
+    .PhotoPos-2A{
+        height: 11.7rem;
+    width: 12rem;
+    position: relative;
+    left: 48.5%;
+    margin-top: 5.8rem;
+    margin-bottom: 5rem;
+    }
+    .PosDistance1AX {
+        margin-left: 5.5rem;
+    }.PosDistanceC {
+        margin-left: 5rem;
+    }
+    .PosDistanceAC {
+        position: relative;
+        left: 25rem;
+    }.PosDistance1AD {
+        margin-left: 8rem;
+        position: relative;
+        left: 28%;
+    }.PosDistance1A {
+        margin: 0rem 8rem;
+        position: relative;
+        right: 4rem;
+    }.cardimg {
+        border-radius: 15px;
+        width: 26rem;
+        height: 18rem;
+        margin-left: 2.2rem;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+    }.Heading-1 {
+        position: relative;
+        left: 41%;
+        margin-top: 5rem;
+        color: #149BFC;
+    }
+    .Heading-para {
+        position: relative;
+        top: 2rem;
+        left: 3%;
+        text-align: center;
+    }.EventSchedule {
+        display: flex;
+        position: relative;
+        bottom: 6rem;
+        right: 1rem;
+    }
+ }
+
+
+
+ @media screen and (min-width:1281px) and  (max-width:1399px) {
+    .container{
+        position: relative;
+    left: -2rem;
+    }
+    .second-levelA{
+        display: flex;
+        position: relative;
+        right: -5rem;
+    }
+ }
+
+ @media screen and (min-width:1025px) and (max-width:1280px) {
+    .cardimg {
+        border-radius: 15px;
+    width: 24rem;
+    height: 19rem;
+    margin-left: 2.2rem;
+    margin-bottom: 1rem;
+    }
+
+    .Heading-1 {
+        position: relative;
+        left: 36%;
+        margin-top: 5rem;
+        color: #149BFC;
+    }
+ }
+
+ @media screen and (min-width:601px) and (max-width:1024px) {
+    .twologos {
+        position: relative;
+        left: 48%;
+        bottom: 5.99rem;
+        margin-bottom: 0rem;
+        height: 11rem;
+    }
+    .PosDistance1AB {
+        margin-left: 8rem;
+        position: relative;
+        left: 38%;
+    }
+    .PosDistanceAC {
+        position: relative;
+        left: 17rem;
+    }.PosDistanceAF {
+        margin-right: -1.5rem;
+        margin-left: 3rem;
+        position: relative;
+        right: 8rem;
+    }.PosDistance1AD {
+        margin-left: 8rem;
+        position: relative;
+        left: 19%;
+    }.PosDistance1A {
+        margin: 0rem 8rem;
+        position: relative;
+        right: 11rem;
+    }
+    .PosDistanceC {
+        margin-left: -1rem;
+        margin-right: 4rem;
+    }
+    .twologoo-1 {
+        width: 10rem;
+        height: 9rem;
+        position: relative;
+        bottom: 5.6rem;
+        left: 1%;
+    }
+    .twologoo {
+        width: 5.5rem;
+        height: 5.5rem;
+        position: relative;
+        bottom: 5.6rem;
+        left: 22%;
+    }
+    .EventSchedule{
+     
+            display: flex;
+            position: relative;
+            bottom: 6rem;
+            right: 6rem;
+        
+    }
+    .Heading-para{
+        position: relative;
+        top: -2rem;
+        left: 1%;
+        text-align: center;
+    }
+    .Heading-1{
+        position: relative;
+        left: 37%;
+        margin-top: 5rem;
+        color: #149BFC;
+        bottom: 3rem;
+    }
+    .OCHeading12{
+        position: relative;
+        left: 31%;
+        margin-top: 5rem;
+        color: #149BFC;
+    
+    }
+    .PosDistance1AX{
+        margin-left: -0.5rem;
+        margin-right: 3rem;
+    }
+    .first-levelA{
+        position: relative;
+    left: 127%;
+    margin-top: 5rem;
+    color: #149BFC;
+    bottom: 3rem;
+    }
+    .cardimg{
+        border-radius: 15px;
+        width: 18.8rem;
+        height: 16rem;
+        margin-left: 2.2rem;
+        margin-top: -1rem;
+    }
+    .element{
+        height: 10rem;
+    width: 10rem;
+    }
+    .aboutpicture {
+        margin: 3rem 0rem;
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        left: 65%;
+    }.para1 {
+        margin-top: 2.5rem;
+        width: 9rem;
+    }.elements-main {
+        display: flex;
+        position: relative;
+        left: 3%;
+        padding: 3rem 1rem;
+    }
+ }
+ @media screen and (min-width:1400px) {
+    .PosDistance1AB{
+        margin-left: 8rem;
+        position: relative;
+        left: 71%;
+    }
+    .PosDistanceAC {
+        position: relative;
+        left: 27rem;
+    }
+    .PosDistanceAF {
+        margin-right: 4.5rem;
+        position: relative;
+        right: 4rem;
+    }
+    .OCHeading12 {
+        position: relative;
+        left: 34%;
+        margin-top: 5rem;
+        color: #149BFC;
+    }
+    .PosDistance1AD {
+        margin-left: 8rem;
+        position: relative;
+        left: 27%;
+    }
  }

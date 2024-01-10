@@ -1,16 +1,20 @@
-.Heading-1{
+/* .Heading-1{
     position: relative;
     left: 45%;
 margin-top: 5rem;
     color: #149BFC;
+} */
+
+.Heading-1{
+    color: #149BFC;
 }
 
-.Heading-para{
+/* .Heading-para{
     position: relative;
     top: 2rem;
     left: 5%;
     text-align: center;
-}
+} */
 
 .placesCard{
     display: flex;
@@ -20,18 +24,41 @@ margin-top: 5rem;
     height:1rem;
     width: 25%;
 }
-
-.cardimg{
-    border-radius: 15px;
-    width: 29rem;
-    height: 21rem;
-    margin-left: 2.2rem;
-    margin-bottom: 1rem;
+@media screen and (min-width:601px) and (max-width: 1024px){
+.Heading-1 {
+    position: relative;
+    left: 37%;
+    margin-top: 5rem;
+    color: #149BFC;
+    bottom: 3rem;
+}
+}
+@media screen and (min-width:1400px) {
+    .Heading-para{
+        margin-bottom: 12rem;
+    position: relative;
+    left: 1rem;
+    text-align: center;
+    top: 4rem;
+    }
+    .Heading-1{
+        position: relative;
+        left: 37.5rem;
+        top: 3rem;
+    }
+    .cardimg{
+        border-radius: 15px;
+        width: 28rem;
+        height: 21rem;
+        margin-left: 2.2rem;
+        margin-bottom: 1rem;
+        margin-top: -5rem;
+       
+    }   
 }
 
-.Cardimg{
-    margin-top: 12rem;
-}
+
+
 
 
 @media screen and (max-width:600px) {
@@ -66,4 +93,15 @@ margin-top: 5rem;
    right: 40rem;
 }
 
+}
+
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .Heading-1{
+        position: relative;
+    left: 42%;
+    margin-top: 5rem;
+    color: #149BFC;
+    width: 60%;
+    }
+   
 }
