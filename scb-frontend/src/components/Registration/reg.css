@@ -14,7 +14,7 @@ table {
   
   th {
 
-    color: #149BFC;
+    color: white;
   }
   
   tr:nth-child(even) {
@@ -61,7 +61,10 @@ left: 10%;
   }
   
   
-  
+  tbody{
+    background-color: #149;
+    color: #ccc;
+  }
   
   
   

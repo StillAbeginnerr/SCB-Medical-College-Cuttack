@@ -241,6 +241,13 @@ IAOMR OFFICE BEARERS</h1>
       <img className='dividr2a' src={line} alt='' />
       <img className='dividr3a' src={line} alt='' />
 
+
+
+      <Container><Row><Col> 
+      <div className='second-l'><h1 className='iaomr-para'>
+Executive Committee </h1></div>
+        </Col></Row></Container>
+
       {/* Sixth Second-level div */}
       <Container>
         <Row>
