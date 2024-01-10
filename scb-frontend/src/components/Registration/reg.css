@@ -9,7 +9,7 @@ table {
 
 th, td {
   background-color: #149;
-  border: 1px solid #ddd;
+  border: 1px solid #ffffff;
   padding: 10px;
   text-align: left;
 }
@@ -65,7 +65,7 @@ left: 10%;
 
 tbody{
   background-color: #149;
-  color: #ccc;
+  color: #ffffff;
 }
 
 
