@@ -71,7 +71,7 @@ margin-top: 5rem;
 
    .Heading-para{
     text-align: center;
-    margin-left: 7rem;
+    margin-left: 11rem;
    }
    .cardimg{
     border-radius: 15px;
@@ -87,10 +87,11 @@ margin-top: 5rem;
     left: -4rem;
 }
 .Heading-1{
-   width:60%;
-   margin-top: 15rem;
-   position: relative;
-   right: 40rem;
+    margin-top: 15rem;
+    position: relative;
+    right: -11rem;
+    width: 61%;
+    top: 0rem;
 }
 
 }
