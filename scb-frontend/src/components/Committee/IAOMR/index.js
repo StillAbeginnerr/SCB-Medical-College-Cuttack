@@ -244,8 +244,8 @@ IAOMR OFFICE BEARERS</h1>
 
 
       <Container><Row><Col> 
-      <div className='second-l'><h1 className='iaomr-para'>
-Executive Committee </h1></div>
+      <div className='second-l'><h1 className='iaomr-paraQ'>
+Executive Committee Members</h1></div>
         </Col></Row></Container>
 
       {/* Sixth Second-level div */}

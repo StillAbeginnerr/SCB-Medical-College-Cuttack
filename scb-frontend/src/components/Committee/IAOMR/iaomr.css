@@ -18,6 +18,11 @@
             }.dividr3a{ position: relative;
                 right: 19%;
                 width: 25%;
+                }.iaomr-paraQ{
+                    position: relative;
+                    left: 0%;
+                    margin: 4rem 0rem;
+                    color: #149BFC;
                 }
 .OCHeading1{
     position: relative;
@@ -207,6 +212,13 @@
 .containn{
     position: relative;
     right: 2rem;
+}
+
+.iaomr-paraQ{
+    position: relative;
+    left: 0.8rem;
+    width: 132%;
+    font-size: 2rem;
 }
 
 .MainContainer{
