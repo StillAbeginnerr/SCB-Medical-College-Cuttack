@@ -69,7 +69,7 @@ const RegistrationTable = () => {
           </tr>
         </tbody>
       </table>
-<div className='container'>
+<div className='container posf'>
 <div className="account-details-card">
       <h2 className='headacc'>ACCOUNT DETAILS</h2>
       <p>

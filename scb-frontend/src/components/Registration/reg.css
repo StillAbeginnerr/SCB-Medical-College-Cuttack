@@ -134,7 +134,12 @@ p {
   line-height: 3.5;
 }
 @media screen and (max-width:600px) {
-  
+ 
+  table{
+    position: relative;
+    left: 1rem;
+  }
+
 .mainregister{
 position: relative;
 left: 40%;
