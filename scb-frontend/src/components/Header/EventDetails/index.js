@@ -34,21 +34,18 @@ SCB Medical College and Hospital
     </div>
    
   </div>
-  <div className='container1'>
   <img className='twologos' src={twologos} alt=''></img>
-  {/* <img className='twologoo' src={twologoo} alt=''></img>
-  <img className='twologoo-1' src={twologooA} alt=''></img> */}
-  </div>
- 
-         <div>
-         {/* <img className='divider' src={line} alt=''></img> */}
+  <img className='twologoo' src={twologoo} alt=''></img>
+  <img className='twologoo-1' src={twologooA} alt=''></img>
+         {/* <div>
+         <img className='divider' src={line} alt=''></img>
        
-       {/* <img className='divider1' src={line} alt=''></img>
+       <img className='divider' src={line} alt=''></img>
        
-       <img className='divider2' src={line} alt=''></img>
+       <img className='divider' src={line} alt=''></img>
        
-       <img className='divider3' src={line} alt=''></img> */}
-         </div>
+       <img className='divider' src={line} alt=''></img>
+         </div> */}
     
        </>
   )

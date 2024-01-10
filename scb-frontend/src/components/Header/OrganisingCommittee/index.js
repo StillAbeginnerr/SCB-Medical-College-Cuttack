@@ -143,7 +143,7 @@ ORGANISING CHAIRMAN</button>
 thirdlevelMain */}
 <div className='Third-Level-2A'>
   <div className='PosDistanceAF'>
-    <img className='photopos-b' src={Doctor16} alt=''></img>
+    <img className='PhotoPos-2A' src={Doctor16} alt=''></img>
     <div className='name-card'>
       <button className='btn-css-d'>Dr. J P raiguru<br></br>
       Scientific Co Chairman</button>

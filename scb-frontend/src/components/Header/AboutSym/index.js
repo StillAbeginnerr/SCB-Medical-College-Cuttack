@@ -8,14 +8,14 @@ function AboutSym() {
   return (
     <>
     <div className='main-container1'>
-    {/* <img className='dividr' src={line} alt=''></img>
+    <img className='dividr' src={line} alt=''></img>
     
     <img className='dividr1' src={line} alt=''></img>
     
     <img className='dividr2' src={line} alt=''></img>
     
-    <img className='dividr3' src={line} alt=''></img> */}
-    <div className='container2' style={{display:'block'}}>
+    <img className='dividr3' src={line} alt=''></img>
+    <div className='container' style={{display:'block'}}>
     <h1 className='about-head'>ABOUT SYMPOSIUM</h1>
 
     <span>
@@ -34,20 +34,14 @@ function AboutSym() {
     </div>
     <img className='aboutpicture' src={aboutpicture}></img>
     </div>
-       
-       {/* <img className='divider1' src={line} alt=''></img>
-       
-       <img className='divider2' src={line} alt=''></img>
-       <img className='dividerA' src={line} alt=''></img>
-       <img className='divider3' src={line} alt=''></img> */}
-{/* 
+
     <img className='dividr' src={line} alt=''></img>
     
     <img className='dividr1' src={line} alt=''></img>
     
     <img className='dividr2' src={line} alt=''></img>
     
-    <img className='dividr3' src={line} alt=''></img> */}
+    <img className='dividr3' src={line} alt=''></img>
 {/*     
   
        

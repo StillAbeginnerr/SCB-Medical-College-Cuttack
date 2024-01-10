@@ -31,13 +31,7 @@ function PlacesToExplore() {
 </div>
 
         </div>
-        <img className='dividerAD' src={line} alt=''></img>
-       
-       {/* <img className='divider1' src={line} alt=''></img>
-       
-       <img className='divider2' src={line} alt=''></img>
-       
-       <img className='divider3' src={line} alt=''></img> */}
+        
        {/* <img className='divider' src={line} alt=''></img>
        
        <img className='divider' src={line} alt=''></img>

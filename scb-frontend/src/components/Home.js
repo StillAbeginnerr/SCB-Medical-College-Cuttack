@@ -13,11 +13,10 @@ function Home() {
     <>
  <LogoSection></LogoSection>
     <NavBar></NavBar>
-    <Header></Header> <EventDetails/>
+    <Header></Header>
+        <EventDetails/>
     <AboutSym></AboutSym>
     <PlacesToExplore></PlacesToExplore>
-    
-
     <OrganisingCommittee></OrganisingCommittee>
     </>
   )

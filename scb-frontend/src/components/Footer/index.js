@@ -30,7 +30,7 @@ And Radiology</a></li>
       <h3 className="nav-heading">Contact Us</h3>
         <p>
           Department of Oral Medicine and Radiology,<br />
-          SCB Dental College and Hospital, Manglabag,<br></br> 753001, Cuttack.
+          SCB Dental College and Hospital, Manglabag, 753001, Cuttack.
         </p>
         <p>
           Phone – +91 9777492429<br />
