@@ -221,11 +221,13 @@
     font-size: 2rem;
 }
 
-.MainContainer{
-    width: 70%;
-    position: relative;
-left: 5%;
-}
+
+    .MainContainer {
+        width: 70%;
+        position: relative;
+        left: 10%;
+    }
+
 
     .dividra{
 display: none;
@@ -252,7 +254,7 @@ display: none;
 
     .iaomr-container{
         position: relative;
-        left: 0rem;
+        left: 2rem;
     }
     .iaomrlogo{
         position: relative;

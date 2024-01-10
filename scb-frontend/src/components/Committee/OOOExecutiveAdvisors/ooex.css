@@ -1,0 +1,14 @@
+.headingooo{
+    position: relative;
+    left: 25rem;
+    margin-bottom: 7rem;
+}
+
+@media screen  and (max-width:600px) {
+    .headingooo {
+        position: relative;
+        left: 2rem;
+        margin-bottom: 7rem;
+        width: 99%;
+    }
+}
