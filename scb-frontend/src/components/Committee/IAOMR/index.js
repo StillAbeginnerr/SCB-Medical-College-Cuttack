@@ -42,7 +42,7 @@ function IAOMR() {
    <LogoSection></LogoSection>
    <NavBar></NavBar>
    <Header></Header>
-   <div className='MainContainer'>
+   <div className='MainContainerS'>
     
 {/* 
     level1-1 */}

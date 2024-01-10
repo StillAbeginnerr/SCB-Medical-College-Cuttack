@@ -81,6 +81,7 @@
 .iaomr-container{
     position: relative;
     left: 18rem;
+    bottom: 0vh;
 }
 .PhotoPos-3{
     position: relative;
@@ -195,13 +196,15 @@
     margin:4rem 0rem;
     color: #149BFC;
 }
+
+
 @media screen and (max-width:600px) {
 
-.MainContainer{
+/* .MainContainer{
     width: 70%;
     position: relative;
 left: 5%;
-}
+} */
 
     .dividra{
 display: none;

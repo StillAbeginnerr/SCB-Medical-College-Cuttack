@@ -18,11 +18,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+         <Route path="/iaomr" element={<IAOMR />} />
          <Route path="/registration" element={<RegistrationTable />} />
-        <Route path="/iaomr" element={<IAOMR />} />
         <Route path="/iaomp" element={<IAOMP />} />
         <Route path="/aomsi" element={<AOMSI />} />
-       
         <Route path="/Guidelines" element={<SymposiumGuidelines />} />
         <Route path="/sponsor" element={<SponsorshipTable />} />
         <Route path="/ContactUs" element={<Contact />} />
