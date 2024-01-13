@@ -3,7 +3,27 @@
     left: 25rem;
     margin-bottom: 7rem;
 }
-
+.btn-css-ooo{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    position: relative;
+    bottom: 2.5rem;
+}
+.name-card{
+    position: relative;
+    left: 44%;
+    bottom: 4rem;
+}
+.Box{
+    position: relative;
+    margin-right: 1rem;
+    top: 13rem;
+    margin-bottom: 5rem;
+}
 @media screen  and (max-width:600px) {
     .headingooo {
         position: relative;
@@ -12,3 +32,4 @@
         width: 99%;
     }
 }
+

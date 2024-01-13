@@ -23,7 +23,7 @@ function App() {
         <Route path="/iaomr" element={<IAOMR />} />
         <Route path="/iaomp" element={<IAOMP />} />
         <Route path="/aomsi" element={<AOMSI />} />
-       {/* <Route path="/oooExecutiveAdvisors" element={<OOOAdvisor></OOOAdvisor>}></Route> */}
+       <Route path="/oooExecutiveAdvisors" element={<OOOAdvisor></OOOAdvisor>}></Route>
         <Route path="/Guidelines" element={<SymposiumGuidelines />} />
         <Route path="/sponsor" element={<SponsorshipTable />} />
         <Route path="/ContactUs" element={<Contact />} />
