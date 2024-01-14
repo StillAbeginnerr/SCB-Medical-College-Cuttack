@@ -55,7 +55,7 @@ return (
            {/* thirdlevel3 */}
            <div className='iaomr-container'>
             <div className='second-le'>
-            <h1 className='iaomr-paraQR'>
+            <h1 className='iaomr-paraQS'>
     OOO Executive Advisors</h1>
             </div>
             

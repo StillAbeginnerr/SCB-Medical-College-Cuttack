@@ -25,6 +25,13 @@
     color: #149BFC;
     
 }
+.iaomr-paraQS{
+    position: relative;
+    left: 18%;
+    margin: 4rem 0rem;
+    color: #149BFC;
+    
+}
 .Box{
     position: relative;
     margin-right: 1rem;
@@ -40,6 +47,12 @@
     }
 
     .iaomr-paraQR{
+        position: relative;
+        left: 3.8rem;
+        width: 98%;
+        font-size: 2rem;
+    }
+    .iaomr-paraQS{
         position: relative;
         left: 3.8rem;
         width: 98%;
