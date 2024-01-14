@@ -95,14 +95,14 @@ return (
     
     
           <Container><Row><Col> 
-          <div className='second-l'><h1 className='iaomr-paraQ'>
+          <div className='second-l'><h1 className='iaomr-paraQR'>
     Board of Advisors</h1></div>
             </Col></Row></Container>
           {/* Lines */}
-          <img className='dividra' src={line} alt='' />
+          {/* <img className='dividra' src={line} alt='' />
           <img className='dividr1a' src={line} alt='' />
           <img className='dividr2a' src={line} alt='' />
-          <img className='dividr3a' src={line} alt='' />
+          <img className='dividr3a' src={line} alt='' /> */}
     
           {/* Second Second-level div */}
           <Container>
@@ -135,10 +135,10 @@ return (
           </Container>
     
           {/* Lines */}
-          <img className='dividra' src={line} alt='' />
+          {/* <img className='dividra' src={line} alt='' />
           <img className='dividr1a' src={line} alt='' />
           <img className='dividr2a' src={line} alt='' />
-          <img className='dividr3a' src={line} alt='' />
+          <img className='dividr3a' src={line} alt='' /> */}
     
           {/* Third Second-level div */}
           <Container>
@@ -171,10 +171,10 @@ return (
           </Container>
     
           {/* Lines */}
-          <img className='dividra' src={line} alt='' />
+          {/* <img className='dividra' src={line} alt='' />
           <img className='dividr1a' src={line} alt='' />
           <img className='dividr2a' src={line} alt='' />
-          <img className='dividr3a' src={line} alt='' />
+          <img className='dividr3a' src={line} alt='' /> */}
     
           {/* Fourth Second-level div */}
       
@@ -213,10 +213,10 @@ return (
           </Container>
     
           {/* Lines */}
-          <img className='dividra' src={line} alt='' />
+          {/* <img className='dividra' src={line} alt='' />
           <img className='dividr1a' src={line} alt='' />
           <img className='dividr2a' src={line} alt='' />
-          <img className='dividr3a' src={line} alt='' />
+          <img className='dividr3a' src={line} alt='' /> */}
     
           {/* Seventh Second-level div */}
           <Container>
@@ -243,10 +243,10 @@ return (
           </Container>
     
           {/* Lines */}
-          <img className='dividra' src={line} alt='' />
+          {/* <img className='dividra' src={line} alt='' />
           <img className='dividr1a' src={line} alt='' />
           <img className='dividr2a' src={line} alt='' />
-          <img className='dividr3a' src={line} alt='' />
+          <img className='dividr3a' src={line} alt='' /> */}
     
           {/* Eighth Second-level div */}
           
