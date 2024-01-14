@@ -55,7 +55,11 @@
         margin-bottom: 7rem;
         width: 99%;
     }
-
+    .MainContainerB {
+        width: 47%;
+        position: relative;
+        left: 10%;
+    }
     .iaomr-paraQR{
         position: relative;
         left: 3.8rem;

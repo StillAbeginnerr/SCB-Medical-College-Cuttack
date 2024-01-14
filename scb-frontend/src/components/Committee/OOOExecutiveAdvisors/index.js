@@ -46,7 +46,7 @@ return (
 <LogoSection></LogoSection>
 <NavBar></NavBar>
 <Header></Header>
-<div className='MainContainer'>
+<div className='MainContainerB'>
     
     {/* 
         level1-1 */}

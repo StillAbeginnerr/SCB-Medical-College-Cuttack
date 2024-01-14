@@ -228,7 +228,13 @@
         left: 10%;
     }
 
+     .MainContainerB {
+        width: 47%;
+        position: relative;
+        left: 10%;
+    }
 
+   
     .dividra{
 display: none;
         }
@@ -307,7 +313,7 @@ display: none;
 .btn-css-iaomr{
     position: relative;
     top: 3rem;
-    right: 5rem;
+    right: 4rem;
     width: 18rem;
     height: 4rem;
     border-radius: 25px;
