@@ -70,7 +70,13 @@
     .footer-nav{
       display: block;
     }
-
+.footer-logo1{
+  position: relative;
+    left: 14.5%;
+    bottom: 9%;
+    height: 17rem;
+    width: 20rem;
+}
     .footer{
       width: 110%;
     }
