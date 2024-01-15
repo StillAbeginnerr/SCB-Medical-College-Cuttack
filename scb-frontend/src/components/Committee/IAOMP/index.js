@@ -39,14 +39,14 @@ function IAOMP() {
         <div className='PosDistance1'>
         <img className='PhotoPos-2N' src={DoctorA} alt=''></img>
        <div className='name-card'>
-        <button className='btn-css'>DR. N CHAITANYA BABU<br></br>
+        <button className='btn-css-iaomp'>DR. N CHAITANYA BABU<br></br>
         President</button>
        </div>
         </div>
         <div className='PosDistance1'>
         <img className='PhotoPos-2N' src={DoctorB} alt=''></img>
        <div className='name-card'>
-        <button className='btn-css'>DR. NADEEM JEDDY<br></br>
+        <button className='btn-css-iaomp'>DR. NADEEM JEDDY<br></br>
         Honourable Secretary</button>
        </div>
         </div>

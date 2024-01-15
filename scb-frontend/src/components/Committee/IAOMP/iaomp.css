@@ -17,10 +17,12 @@
     bottom: 4rem;
 }
 
-.btn-css{
-    width: 18rem;
+.btn-css-iaomp{
+    width: 15rem;
     border-radius: 25px;
     border: 0px;
+    position: relative;
+    bottom: 2rem;
     color: white;
     background-color: #149BFC;
 }
@@ -90,13 +92,19 @@ position: relative;
 width: 60%;
     }
 
-
-
-
     .second-leveliaomp{
         display: block;
         position: relative;
-        right: 35%;
+        right: 15%;
+    }
+
+  
+    .btn-css-iaomp{
+    
+        bottom: 2rem;
+        position: relative;
+        left: 8%;
+     
     }
 }
 
