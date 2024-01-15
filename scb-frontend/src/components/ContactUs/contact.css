@@ -47,6 +47,11 @@
         position: relative;
         right: -5%;
     }
+    .cardtext{
+        position: relative;
+        right: 2.5rem;
+        width: 12rem;
+    }
     .classbody-2{
         width: 70%;
     }

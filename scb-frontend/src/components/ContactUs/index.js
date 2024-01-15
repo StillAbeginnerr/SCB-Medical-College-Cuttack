@@ -20,7 +20,7 @@ function Contact() {
       
       <Card.Body className='classbody'>
         <Card.Title>VENUE</Card.Title>
-        <Card.Text>
+        <Card.Text className='cardtext'>
         SCB MEDICAL COLLEGE
 & HOSPITAL,<br></br> CUTTACK, ODISHA
         </Card.Text>
@@ -31,7 +31,7 @@ function Contact() {
      
       <Card.Body className='classbody-2'>
         <Card.Title>MAIL US AT</Card.Title>
-        <Card.Text>
+        <Card.Text className='cardtext'>
         ooocuttack2024@gmail.com
         </Card.Text>
         
@@ -41,7 +41,7 @@ function Contact() {
      
       <Card.Body className='classbody-2'>
         <Card.Title>CALL US AT</Card.Title>
-        <Card.Text>
+        <Card.Text >
         +91 9777492429 (ADMIN)
         </Card.Text>
       
