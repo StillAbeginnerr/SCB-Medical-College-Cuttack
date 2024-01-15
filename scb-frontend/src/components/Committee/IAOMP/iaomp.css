@@ -90,6 +90,9 @@ position: relative;
 width: 60%;
     }
 
+
+
+
     .second-leveliaomp{
         display: block;
         position: relative;
@@ -99,7 +102,6 @@ width: 60%;
 
 @media screen and (min-width:1900px)
 {
-
     .main-container{
         position: relative;
         left: 25%;

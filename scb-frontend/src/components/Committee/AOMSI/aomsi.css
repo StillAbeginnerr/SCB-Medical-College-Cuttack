@@ -24,6 +24,7 @@
     position: relative;
     left: 35%;
     top: 4rem;
+    color: #149BFC;
 }
 
 @media screen and (max-width:600px) {
