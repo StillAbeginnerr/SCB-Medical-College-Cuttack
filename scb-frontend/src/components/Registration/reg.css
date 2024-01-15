@@ -29,7 +29,6 @@ tr:hover {
 
 .guidelines-container{
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -47,7 +46,6 @@ left: 10%;
   height: 25rem;
   background-color: #fff; /* White background */
   margin-left: 20px; /* Adjust spacing as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .qr-code-card img {
