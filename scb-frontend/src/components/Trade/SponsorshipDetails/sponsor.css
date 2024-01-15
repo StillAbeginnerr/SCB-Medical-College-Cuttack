@@ -21,7 +21,7 @@
   }
   
   .sponsorship-table td {
-    color: #666;
+    color: #ffffff;
     line-height: 1.6;
   }
   
@@ -59,4 +59,12 @@
     font-style: italic;
     text-align: center;
   }
-  
+  @media screen and (max-width:600px) {
+    .mainHeadingSponsor {
+      position: relative;
+      left: 26%;
+      margin: 5rem 0rem;
+      color: #149BFC;
+      width: 70%;
+  }
+  }
