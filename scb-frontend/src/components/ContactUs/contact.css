@@ -44,6 +44,8 @@
     }
     .maincard-1{
         width: 80%;
+        position: relative;
+        right: -5%;
     }
     .classbody-2{
         width: 70%;
