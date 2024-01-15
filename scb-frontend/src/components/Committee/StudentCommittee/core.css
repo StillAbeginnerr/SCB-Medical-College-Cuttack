@@ -1,0 +1,45 @@
+.core{
+    position: relative;
+    left: 16rem;
+}
+.btn-css-core{
+    position: relative;
+    top: 3rem;
+    right: 10rem;
+    width: 18rem;
+    height: 4rem;
+    border-radius: 25px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+}
+
+.core-c{
+
+        position: relative;
+        left: 16%;
+        margin: 4rem 0rem;
+        color: #149BFC;
+    
+}
+
+@media screen and (max-width:600px){
+    .core{
+        position: relative;
+        left: 1rem;
+    }
+    .core-c{
+        width: 20rem;
+    }
+    .btn-css-core{
+        position: relative;
+        top: 3rem;
+        right: 6rem;
+        width: 18rem;
+        height: 4rem;
+        border-radius: 25px;
+        border: 0px;
+        color: white;
+        background-color: #149BFC;
+    }
+}
