@@ -60,7 +60,7 @@ return (
            <div className='core'>
             <div className='second-le'>
             <h1 className='core-c'>
-  Organising Core Committee</h1>
+  Core Organising Committee</h1>
             </div>
             
     
