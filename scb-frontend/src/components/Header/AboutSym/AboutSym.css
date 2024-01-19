@@ -11,19 +11,25 @@ width: 25%;
 .about-head{
     margin: 2.55rem;
     color:#149BFC ;
+    position: relative;
+    left: -4%;
 }
 
 .about-para{
-    font-size: larger;
-    margin-bottom: 2.5rem;
+    font-size: 1.65rem;
+    margin-bottom: .5rem;
+    width: 57rem;
+    position: relative;
+    left: -1%;
 }
 
 .aboutpicture{
-    margin: 3rem 0rem;
-    height: 20rem;
-    width: 20rem;
+    margin: 0rem 0rem;
+    height: 30rem;
+    width: 30rem;
     position: relative;
-    left: 70%;
+    left: 65%;
+    bottom: 17.5rem;
 }
 .line-1{
 }
@@ -35,6 +41,30 @@ width: 25%;
 }
 .line-4{
     
+}
+
+@media screen and (max-width:1400px) and (min-width:1280px) {
+    .about-para{
+        font-size: 1.35rem;
+    }
+    .aboutpicture{
+        height: 25rem;
+        width: 25rem;
+        position: relative;
+        top: -15rem;
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:1024px) {
+    .about-para{
+        font-size: 1.35rem;
+    }
+    .aboutpicture{
+        height: 25rem;
+        width: 25rem;
+        position: relative;
+        top: -15rem;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -60,9 +90,11 @@ height: 40rem;
     }
     .aboutpicture{
         position: relative;
-        top: 0rem;
-    left: 18%;
-        margin-bottom: 10rem;
+        top: 2rem;
+        left: 12%;
+        margin-bottom: 13rem;
+        height: 24rem;
+        width: 23rem;
     }
     .divider{
      margin-top: 25rem;
