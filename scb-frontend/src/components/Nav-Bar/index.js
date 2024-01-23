@@ -23,7 +23,7 @@ function NavBar() {
       <Dropdown.Item style={{backgroundColor:'#149BFC',color:'white'}} href="/aomsi">AOMSI</Dropdown.Item>
       <Dropdown.Item style={{backgroundColor:'#149BFC',color:'white'}} href="/oooExecutiveAdvisors">OOO EXECUTIVE ADVISORS</Dropdown.Item>
       <Dropdown.Item style={{backgroundColor:'#149BFC',color:'white'}} href="/corecommittee">CORE ORGANISING COMMITTEE</Dropdown.Item>
-      <Dropdown.Item style={{backgroundColor:'#149BFC',color:'white'}}>OTHER COMMITTEE</Dropdown.Item>
+      <Dropdown.Item style={{backgroundColor:'#149BFC',color:'white'}} href="/">OTHER COMMITTEE</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
    <Dropdown as={NavItem}>

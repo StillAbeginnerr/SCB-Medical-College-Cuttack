@@ -1,0 +1,37 @@
+@media screen and (max-width:600px) {
+    .btn-css-oe {
+        width: 16rem;
+        height: 4rem;
+        border-radius: 15px;
+        border: 0px;
+        color: #149BFC;
+        position: relative;
+        bottom: 13.5rem;
+        right: 5.5rem;
+        font-size: 1.25rem;
+        z-index: 0;
+        font-weight: bolder;
+    }
+    .headingoe{
+        position: relative;
+        left: 4rem;
+        margin-bottom: 7rem;
+        width: 90%;
+    }
+    .abc{
+        width: 80%;
+    }
+}
+
+.btn-css-oe {
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: #149BFC;
+    position: relative;
+    bottom: 13.5rem;
+    right: 5.5rem;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}

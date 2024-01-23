@@ -12,6 +12,7 @@ import RegistrationTable from "./components/Registration";
 import AOMSI from "./components/Committee/AOMSI";
 import OOOAdvisor from "./components/Committee/OOOExecutiveAdvisors";
 import Student from "./components/Committee/StudentCommittee";
+import OtherCommittee from "./components/Committee/OtherCommittee";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/aomsi" element={<AOMSI />} />
        <Route path="/oooExecutiveAdvisors" element={<OOOAdvisor></OOOAdvisor>}></Route>
        <Route path="/corecommittee" element={<Student></Student>}></Route>
+       <Route path="/otherCommittee" element={<OtherCommittee></OtherCommittee>}></Route>
         <Route path="/Guidelines" element={<SymposiumGuidelines />} />
         <Route path="/sponsor" element={<SponsorshipTable />} />
         <Route path="/ContactUs" element={<Contact />} />
