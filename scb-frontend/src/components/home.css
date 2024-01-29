@@ -1,0 +1,13 @@
+.whatsapp-btn{
+    /* top: 35.0rem;
+    left: 95%;
+    position: fixed;
+    z-index: 100; */
+    display: none;
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .whatsapp-btn{
+        top: 30rem;
+    }
+}

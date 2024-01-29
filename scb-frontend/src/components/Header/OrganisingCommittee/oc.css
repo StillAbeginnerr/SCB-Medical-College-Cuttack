@@ -20,12 +20,48 @@
     margin-top: 5rem;
     color: #149BFC;
 }
+.pd-2{
+    padding-bottom: 4rem;
+}
+.ocHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:1rem;
+}
+.mainocContainer{
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ocMembers{
+    /* width:100vw; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:2px solid blue; */
+}
+.ocMembersCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.otherOcMembers{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .MainContainerB{
     width: auto;
 }
 .OCHeading12{
-    position: relative;
-    left: 37%;
+    /* position: relative;
+    left: 37%; */
     margin-top: 5rem;
     color: #149BFC;
 }
@@ -251,14 +287,14 @@
 .PhotoPos-2A{
     height: 13rem;
     width: 13rem;
-    position: relative;
-    left: 57.5%;
-    margin-top: 4.5rem;
-    margin-bottom: 5rem;
+    /* position: relative;
+    left: 57.5%; */
+    /* margin-top: 4.5rem;
+    margin-bottom: 5rem; */
 }
 
 .MainContainer{
-    width: auto;
+    width: 100%;
 }
 .btn-cssA{
     width: 17rem;
@@ -267,9 +303,9 @@
     border: 0px;
     color: white;
     background-color: #149BFC;
-    position: relative;
-    bottom: 2.5rem;
-    right: 2rem;
+    /* position: relative; */
+    /* bottom: 2.5rem;
+    right: 2rem; */
 }
 
 .second-levelD{
@@ -303,7 +339,7 @@
     width: 100%;
     color: #149BFC;
     position: relative;
-    right: -3rem;
+    right: -2rem;
 }
 .first-levelA{
     position: relative;
@@ -316,9 +352,9 @@
     border: 0px;
     color: white;
     background-color: #149BFC;
-    position: relative;
+    /* position: relative;
     bottom: 2.5rem;
-    right: 1rem;
+    right: 1rem; */
 }
 .btn-cssY{
     width: 16rem;
@@ -399,10 +435,10 @@
 .PhotoPos-2A{
     height: 12rem;
     width: 12rem;
-    position: relative;
+    /* position: relative;
     left: 50.5%;
     margin-top: 4.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem; */
    }
    .PhotoPos-3A{
     position: relative;
@@ -512,10 +548,10 @@
     .PhotoPos-2A{
         height: 11.7rem;
     width: 12rem;
-    position: relative;
+    /* position: relative;
     left: 48.5%;
     margin-top: 5.8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem; */
     }
     .PosDistance1AX {
         margin-left: 5.5rem;
@@ -562,10 +598,10 @@
 
 
  @media screen and (min-width:1281px) and  (max-width:1399px) {
-    .container{
+    /* .container{
         position: relative;
     left: -2rem;
-    }
+    } */
     .second-levelA{
         display: flex;
         position: relative;
@@ -573,22 +609,7 @@
     }
  }
 
- @media screen and (min-width:1025px) and (max-width:1280px) {
-    .cardimg {
-        border-radius: 15px;
-    width: 24rem;
-    height: 19rem;
-    margin-left: 2.2rem;
-    margin-bottom: 1rem;
-    }
 
-    .Heading-1 {
-        position: relative;
-        left: 36%;
-        margin-top: 5rem;
-        color: #149BFC;
-    }
- }
 
  @media screen and (min-width:601px) and (max-width:1024px) {
     .twologos {
@@ -660,8 +681,8 @@
         bottom: 3rem;
     }
     .OCHeading12{
-        position: relative;
-        left: 31%;
+        /* position: relative;
+        left: 31%; */
         margin-top: 5rem;
         color: #149BFC;
     
@@ -719,15 +740,75 @@
         position: relative;
         right: 4rem;
     }
-    .OCHeading12 {
+    /* .OCHeading12 {
         position: relative;
         left: 34%;
         margin-top: 5rem;
         color: #149BFC;
-    }
+    } */
     .PosDistance1AD {
         margin-left: 8rem;
         position: relative;
         left: 27%;
     }
+    /* .OCHeading12{
+position: relative;
+left: 35rem;
+    } */
  }
+
+ @media screen and (min-width:1025px) and (max-width:1280px) {
+    .cardimg {
+        border-radius: 15px;
+    width: 24rem;
+    height: 19rem;
+    margin-left: 2.2rem;
+    margin-bottom: 1rem;
+    }
+
+    .Heading-1 {
+        position: relative;
+        left: 36%;
+        margin-top: 5rem;
+        color: #149BFC;
+    }
+    .container{
+        /* position: relative;
+        left: -4rem; */
+    }
+
+    .PosDistance1AD{
+position: relative;
+right: 2rem;
+    }
+ }
+@media screen and (max-width:1024px){
+    .otherOcMembers{
+        flex-direction: column;
+    }
+    .pd-2{
+        padding-bottom: unset;
+    }
+    .pd-1{
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:768px){
+    .btn-cssA{
+        width:20rem;
+    }
+    /* .mainocContainer{
+        width:unset;
+    } */
+}
+@media screen and (max-width:600px){
+    .mainocContainer{
+        width:unset;
+    }
+    .OCHeading12{
+        margin-top: 5rem;
+        width: 100%;
+        color: #149BFC;
+        position:unset;
+    }
+}

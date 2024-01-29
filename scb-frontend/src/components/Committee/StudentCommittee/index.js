@@ -5,7 +5,7 @@ import NavBar from '../../Nav-Bar'
 import Header from '../../Header'
 
 import { Container } from 'react-bootstrap';
-import { Col,Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 import Doctor1AX from '../../assets/CoreCommittee/Dr. Shweta Mishra (1).JPG';
 import Doctor2AX from '../../assets//CoreCommittee/Dr. Pinali Das (1).JPG';
@@ -45,19 +45,80 @@ import iaomrlogo from '../../assets/DoctorPhotos/IAOMR/IAOMR__1_-removebg-previe
 import './core.css'
 
 function Student() {
-return (
-<>
-<LogoSection></LogoSection>
-<NavBar></NavBar>
-<Header></Header>
-<div className='MainContainer'>
-    
-    {/* 
+  return (
+    <>
+      <LogoSection></LogoSection>
+      <NavBar></NavBar>
+      <Header></Header>
+      <div className='MainContainer'>
+      <h1 className='headingCore pd-4'>Core Organising Committee</h1>
+
+        <div className='outerContainer'>
+          <div className='innerContainer'>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor1AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Shweta Mishra <br></br>
+                President</button>
+            </div>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor2AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Pinali Das<br></br>
+                President</button>
+            </div>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor3AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Ekagrata Mishra<br></br>
+                President</button>
+            </div>
+          </div>
+
+        </div>
+        <div className='outerContainer'>
+          <div className='innerContainer'>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor4AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Pooja Bohidar <br></br>
+                President</button>
+            </div>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor5AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. BDSJ Krishna Priya<br></br>
+                President</button>
+            </div>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor6AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Romali Panda<br></br>
+                President</button>
+            </div>
+          </div>
+        </div>
+        <div className='outerContainer'>
+          <div className='innerContainer'>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor7AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Sharmila Senapati <br></br>
+                President</button>
+            </div>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor8AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Ajo Babu George<br></br>
+                President</button>
+            </div>
+            <div className='containerCore pd-1'>
+              <img className='imgCore' src={Doctor9AX} alt=''></img>
+              <button className='btn-css-aomsi'>Dr. Sebati Murmu<br></br>
+                President</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 
         level1-1 */}
-      
-    
-           {/* thirdlevel3 */}
-           <div className='core'>
+
+
+      {/* thirdlevel3 */}
+      {/* <div className='core'>
             <div className='second-le'>
             <h1 className='core-c'>
   Core Organising Committee</h1>
@@ -149,22 +210,22 @@ return (
       </Col>
     </div>
   </Row>
-</Container>
-    
-          {/* Lines */}
-          {/* <img className='dividra' src={line} alt='' />
+</Container> */}
+
+      {/* Lines */}
+      {/* <img className='dividra' src={line} alt='' />
           <img className='dividr1a' src={line} alt='' />
           <img className='dividr2a' src={line} alt='' />
           <img className='dividr3a' src={line} alt='' /> */}
-    
-          {/* Fourth Second-level div */}
-      
-      
-    
-    
-    
-          {/* Sixth Second-level div */}
-          <Container>
+
+      {/* Fourth Second-level div */}
+
+
+
+
+
+      {/* Sixth Second-level div */}
+      {/* <Container>
   <Row>
     <div className='containn'>
       <Col>
@@ -250,20 +311,11 @@ return (
     </div>
   </Row>
 </Container>
-    
-          {/* Lines */}
-          {/* <img className='dividra' src={line} alt='' />
-          <img className='dividr1a' src={line} alt='' />
-          <img className='dividr2a' src={line} alt='' />
-          <img className='dividr3a' src={line} alt='' /> */}
-    
-          {/* Eighth Second-level div */}
-          
           </div>
-          </div>
-          
-</>
-)
+          </div> */}
+
+    </>
+  )
 }
 
 export default Student

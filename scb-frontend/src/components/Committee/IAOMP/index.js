@@ -26,15 +26,24 @@ function IAOMP() {
    <LogoSection></LogoSection>
    <NavBar></NavBar>
    <Header></Header>
-   <div className='MainContainer'>
-    
-{/* 
-    level1-1 */}
-  
+   <div className='outerContainer'>
+        <div className='innerContainer'>
+          <div className='containerIAOMP pd-1'>
+            <img src={DoctorA} alt=''></img>
+            <button className='btn-css-aomsi'>DR. N CHAITANYA BABU <br></br>
+              President</button>
+          </div>
+          <div className='containerIAOMP pd-1'>
+            <img src={DoctorB} alt=''></img>
+            <button className='btn-css-aomsi'>DR. NADEEM JEDDY<br></br>
+              President</button>
+          </div>
+        </div>
 
-       {/* thirdlevel3 */}
+      </div>
+   {/* <div className='MainContainer'>
        <div className='main-container'>
-        {/* <h1 className='iaomp-head'>IAOMP Committee</h1> */}
+        <h1 className='iaomp-head'>IAOMP Committee</h1>
        <div className='second-leveliaomp'>
         <div className='PosDistance1'>
         <img className='PhotoPos-2N' src={DoctorA} alt=''></img>
@@ -54,7 +63,7 @@ function IAOMP() {
        </div>
        </div>
      
-   </div>
+   </div> */}
    </>
   )
 }
