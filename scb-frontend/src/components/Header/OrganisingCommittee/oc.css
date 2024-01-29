@@ -573,22 +573,7 @@
     }
  }
 
- @media screen and (min-width:1025px) and (max-width:1280px) {
-    .cardimg {
-        border-radius: 15px;
-    width: 24rem;
-    height: 19rem;
-    margin-left: 2.2rem;
-    margin-bottom: 1rem;
-    }
 
-    .Heading-1 {
-        position: relative;
-        left: 36%;
-        margin-top: 5rem;
-        color: #149BFC;
-    }
- }
 
  @media screen and (min-width:601px) and (max-width:1024px) {
     .twologos {
@@ -729,5 +714,35 @@
         margin-left: 8rem;
         position: relative;
         left: 27%;
+    }
+    .OCHeading12{
+position: relative;
+left: 35rem;
+    }
+ }
+
+ @media screen and (min-width:1025px) and (max-width:1280px) {
+    .cardimg {
+        border-radius: 15px;
+    width: 24rem;
+    height: 19rem;
+    margin-left: 2.2rem;
+    margin-bottom: 1rem;
+    }
+
+    .Heading-1 {
+        position: relative;
+        left: 36%;
+        margin-top: 5rem;
+        color: #149BFC;
+    }
+    .container{
+        position: relative;
+        left: -4rem;
+    }
+
+    .PosDistance1AD{
+position: relative;
+right: 2rem;
     }
  }

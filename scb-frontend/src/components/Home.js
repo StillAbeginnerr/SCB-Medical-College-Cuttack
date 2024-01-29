@@ -7,8 +7,15 @@ import AboutSym from './Header/AboutSym'
 import OrganisingCommittee from './Header/OrganisingCommittee'
 import PlacesToExplore from './Header/PlacesToExplore'
 import EventDetails from './Header/EventDetails'
+import './home.css'
+
+function openWhatsApp() {
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=919777492429&text=Hello%2C%0D%0AI%27m+having+a+query&type=phone_number&app_absent=0";
+  window.open(whatsappLink, '_blank');
+}
 
 function Home() {
+
   return (
     <>
  <LogoSection></LogoSection>
@@ -18,6 +25,7 @@ function Home() {
     <AboutSym></AboutSym>
     <PlacesToExplore></PlacesToExplore>
     <OrganisingCommittee></OrganisingCommittee>
+    <img className='whatsapp-btn' src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" onClick={openWhatsApp} style={{width:'50px',height:'50px'}}></img>
     </>
   )
 }

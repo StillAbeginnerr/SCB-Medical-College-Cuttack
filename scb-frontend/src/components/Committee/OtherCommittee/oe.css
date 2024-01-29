@@ -1,4 +1,5 @@
 @media screen and (max-width:600px) {
+    /*used for mobile view*/
     .btn-css-oe {
         width: 16rem;
         height: 4rem;
@@ -19,11 +20,31 @@
         width: 90%;
     }
     .abc{
+        display: inline;
         width: 80%;
     }
 }
 
+@media screen and (min-width:1200px) {
+    /* Desktop styles */
+    .btn-css-oe {
+      width: 24rem;
+      height: 6rem;
+      font-size: 2rem;
+    }
+  
+    .headingoe {
+      left: 25%;
+      margin-bottom: 15rem;
+    }
+  
+    .abc {
+      width: 50%;
+    }
+  }
+
 .btn-css-oe {
+    /* used for name */
     width: 16rem;
     height: 4rem;
     border-radius: 15px;
@@ -34,4 +55,39 @@
     right: 5.5rem;
     font-size: 1.25rem;
     font-weight: bolder;
+}
+
+.designation {
+    /* used for designation of name */
+    position: relative;
+    text-align: start;
+    left: 0rem;
+    color: #ff9f16;
+    font-size: 1rem;
+    font-weight:lighter;
+    bottom: 13rem;
+    font-family: "Poppins", Sans-serif;
+}
+.headingoe{
+    /* Used for section heading */
+    text-align: center;
+    color: #149BFC;
+    margin-bottom: 7rem;
+    width: 90%;
+    left: -9rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.name-card-oe{
+    position: relative;
+    left: 44%;
+    bottom: 4rem;
+    display:block;
 }
