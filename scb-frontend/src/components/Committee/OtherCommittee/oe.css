@@ -1,5 +1,57 @@
+.mainContainerOther{
+    /* overflow: hidden; */
+}
+.boxOther{
+    width:90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxContainer{
+    width:13rem;
+    height:4rem;
+    border-radius:15px;
+    color: #149BFC;
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxText{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.boxUnderText{
+    text-align: centers;
+    color: #ff9f16;
+    font-size: 1rem;
+    font-weight:lighter;
+    bottom: 13rem;
+    font-family: "Poppins", Sans-serif;
+}
+.pd-2{
+    padding-bottom: 2rem;
+}
+.pd-4{
+    padding-bottom: 2rem;
+}
 @media screen and (max-width:600px) {
     /*used for mobile view*/
+    .pd-2{
+        padding-bottom: 0.5rem;
+    }
+    .pd-4{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
     .btn-css-oe {
         width: 16rem;
         height: 4rem;
@@ -14,9 +66,9 @@
         font-weight: bolder;
     }
     .headingoe{
-        position: relative;
+        /* position: relative;
         left: 4rem;
-        margin-bottom: 7rem;
+        margin-bottom: 7rem; */
         width: 90%;
     }
     .abc{
@@ -34,8 +86,8 @@
     }
   
     .headingoe {
-      left: 25%;
-      margin-bottom: 15rem;
+      /* left: 25%; */
+      margin-bottom: 2rem;
     }
   
     .abc {
@@ -57,8 +109,7 @@
     font-weight: bolder;
 }
 
-.designation {
-    /* used for designation of name */
+/* .designation {
     position: relative;
     text-align: start;
     left: 0rem;
@@ -67,22 +118,27 @@
     font-weight:lighter;
     bottom: 13rem;
     font-family: "Poppins", Sans-serif;
-}
+} */
 .headingoe{
     /* Used for section heading */
     text-align: center;
     color: #149BFC;
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
     width: 90%;
-    left: -9rem;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-top: ; */
+    /* left: -9rem; */
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 .abc {
-    display: block;
-    margin-left: auto;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 80%; */
 }
 
 .name-card-oe{

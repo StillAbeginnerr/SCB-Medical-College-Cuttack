@@ -26,229 +26,243 @@ import './oc.css'
 
 function OrganisingCommittee() {
   return (
-   <>
-   <div className='MainContainer'>
-    <img className='dividr' src={line} alt=''></img>
-    
-    <img className='dividr1' src={line} alt=''></img>
-    
-    <img className='dividr2' src={line} alt=''></img>
-    
-    <img className='dividr3' src={line} alt=''></img>
-    <h1 className='OCHeading12'>ORGANISING COMMITTEE</h1>
-{/* 
+    <>
+
+      <div>
+
+      </div>
+      <div className='MainContainer'>
+        <img className='dividr' src={line} alt=''></img>
+
+        <img className='dividr1' src={line} alt=''></img>
+
+        <img className='dividr2' src={line} alt=''></img>
+
+        <img className='dividr3' src={line} alt=''></img>
+        <div className='ocHeading'>
+          <h1 className='OCHeading12'>ORGANISING COMMITTEE</h1>
+        </div>
+        {/* 
     level1-1 */}
-    
-      <Container><Row><Col>
+
+        {/* <Container><Row><Col>
       <div className='first-levelA'>
       <img className='PhotoPos-2' src={Doctor1} alt=''></img>
        <div className='name-card'>
         <button className='btn-cssA'>DR. FAKIR MOHAN DEBTA <br></br>
 ORGANISING CHAIRMAN</button>
-       </div></div></Col></Row></Container>
-   
-       <Container>
-      <Row>
-        
-        <Col><div className='PosDistance1AX'>
-        <img className='PhotoPos-2' src={Doctor2} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-cssA'>DR. NIRANJAN MISHRA <br></br>
-        ORGANISING CO-CHAIRMAN</button>
-       </div></div></Col>
-        <Col><div className='PosDistance1AX'>
-        <img className='PhotoPos-2' src={Doctor3} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-cssA'>DR. SANGAMESH N.C. <br></br>
-        ORGANISING CO-CHAIRMAN</button>
-       </div></div></Col>
-          <Col><div className='PosDistance1AX'>
-        <img className='PhotoPos-2' src={Doctor4} alt=''></img>
-       <div className='name-card'>
-        <button className='btn-cssA'>DR. SATYA RANJAN MISHRA<br></br>
-        ORGANISING CO-CHAIRMAN</button>
-       </div>
-        </div></Col>  
-      </Row>
-    </Container>
+       </div></div></Col></Row></Container> */}
 
-        
+        <div>
+        <div className='mainocContainer'>
+          <div className='ocMembers'>
+            <div className='ocMembersCard'>
+              <img className='' src={Doctor1} alt=''></img>
+              <div className='ocNameCard'>
+                <button className='btn-cssA'>DR. FAKIR MOHAN DEBTA <br></br>
+                  ORGANISING CHAIRMAN</button>
+              </div>
+            <div className='pd-1'></div>
 
+              {/* <br></br>
+              <br></br> */}
+        <div className='pd-2'></div>
 
-       <img className='dividr' src={line} alt=''></img>
-    
-    <img className='dividr1' src={line} alt=''></img>
-    
-    <img className='dividr2' src={line} alt=''></img>
-    
-    <img className='dividr3' src={line} alt=''></img>
-       
-       
-{/* third-level1 */}
-<div className='second-levelAZ'>
- <Container><Row><Col><div className='PosDistance1AB posmob'>
-    <img className='PhotoPos-2' src={Doctor5} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>Dr. SHREEYAM MOHAPATRA<br></br>
-       SECRETARY</button>
-    </div>
-  </div>
-  </Col></Row></Container>
-  
-  
-</div>
-
-
-<Container>
-<Row>
-        <Col>
-          <div className='PosDistanceC'>
-            <img className='PhotoPos-2A' src={Doctor15} alt='' />
-            <div className='name-card'>
-              <button className='btn-cssA'>Dr. Sthitaprajna lenka<br /></button>
             </div>
           </div>
-        </Col>
-        <Col>
-          <div className='PosDistanceC'>
-            <img className='PhotoPos-2' src={Doctor6} alt='' />
-            <div className='name-card'>
-              <button className='btn-cssA'>DR. SHADAB ALI BAIG <br /></button>
+          <div className='otherOcMembers'>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor2} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. NIRANJAN MISHRA <br></br>
+                  ORGANISING CO-CHAIRMAN</button>
+                </div>
+              </div>
             </div>
-          </div>
-        </Col>
-        <Col>
-          <div className='PosDistanceC'>
-            <img className='PhotoPos-2' src={Doctor7} alt='' />
-            <div className='name-card'>
-              <button className='btn-cssA'>DR. ABIKSHYEET PANDA <br /></button>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor3} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. SANGAMESH N.C. <br></br>
+                  ORGANISING CO-CHAIRMAN</button>
+                </div>
+              </div>
             </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor4} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. SATYA RANJAN MISHRA<br></br>
+                  ORGANISING CO-CHAIRMAN</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
           </div>
-        </Col>
-      </Row>
-</Container>
-{/* newlevel */}
-<div className='second-levelAZ'>
-  
-</div>
-
-<img className='dividr' src={line} alt=''></img>
-    
-    <img className='dividr1' src={line} alt=''></img>
-    
-    <img className='dividr2' src={line} alt=''></img>
-    
-    <img className='dividr3' src={line} alt=''></img>
-{/* third-level2 */}
-<Container>
-  <Row><Col>
-  <div className='Third-Level-3A'>
-  <div className='PosDistanceAC'>
-    <img className='PhotoPos-2' src={Doctor8} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>DR. KUNAL AGARWAL <br></br>
-      SCIENTIFIC CHAIRMAN</button>
-    </div>
-  </div>
-  
-  </div>
-  </Col></Row>
-</Container>
-
-    <img className='dividr' src={line} alt=''></img>
-    
-    <img className='dividr1' src={line} alt=''></img>
-    
-    <img className='dividr2' src={line} alt=''></img>
-    
-    <img className='dividr3' src={line} alt=''></img>
-{/* 
-thirdlevelMain */}
-
-  <Container>
-    <Row>
-      <Col  sm={6} md={4} lg={4} xl={3}>
-      <div className='Third-Level-2A'>
-      <div className='PosDistanceAF'>
-    <img className='PhotoPos-2A' src={Doctor16} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>Dr. J P raiguru<br></br>
-      Scientific Co Chairman</button>
-    </div>
-  </div>
-  <div className='PosDistanceAF'>
-    <img className='PhotoPos-2' src={Doctor9} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>DR. RACHNA RATH <br></br>
-      SCIENTIFIC CHAIRMAN</button>
-    </div>
-  </div>
-  <div className='PosDistanceAF'>
-    <img className='PhotoPos-2' src={Doctor10} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>DR. SWARNAV PATNAIK <br></br>
-      SCIENTIFIC CO-CHAIRMAN</button>
-    </div>
-  </div>
-  <div className='PosDistanceAF'>
-    <img className='PhotoPos-2' src={Doctor11} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>DR. GYANA RANJAN SAHOO <br></br>
-      SCIENTIFIC CO-CHAIRMAN</button>
-    </div>
-  </div></div>
-      </Col>
-    </Row>
-  </Container>
-
-<img className='dividr' src={line} alt=''></img>
-    
-    <img className='dividr1' src={line} alt=''></img>
-    
-    <img className='dividr2' src={line} alt=''></img>
-    
-    <img className='dividr3' src={line} alt=''></img>
-{/* thirdlevel3 */}
-<div className='second-levelD'>
-  <div className='PosDistance1AD'>
-    <img className='PhotoPos-2' src={Doctor12} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>DR. DEBAJYOTI BARDHAN <br></br>
-      TREASURER</button>
-    </div>
-  </div>
-</div>
-<Container><Row><Col>
-<div className='second-levelA'>
- 
-  <div className='PosDistance1A'>
-    <img className='PhotoPos-2' src={Doctor13} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>DR. PRIYANKA DEBTA <br></br>
-      PRE-CONFERENCE CHAIRMAN</button>
-    </div>
-  </div>
-  <div className='PosDistance1A'>
-    <img className='PhotoPos-2' src={Doctor14} alt=''></img>
-    <div className='name-card'>
-      <button className='btn-cssA'>Dr. SHUBHANGI PAREEK <br></br>
-      PRE-CONFERENCE CHAIRMAN</button>
-    </div>
-  </div>
-</div>
-</Col></Row></Container>
+        </div>  
+        </div>
+        <div className='pd-2'></div>
 
 
 
-   </div>
-    <img className='dividr' src={line} alt=''></img>
-    
-    <img className='dividr1' src={line} alt=''></img>
-    
-    <img className='dividr2' src={line} alt=''></img>
-    
-    <img className='dividr3' src={line} alt=''></img>
-   </>
+
+        <img className='dividr' src={line} alt=''></img>
+
+        <img className='dividr1' src={line} alt=''></img>
+
+        <img className='dividr2' src={line} alt=''></img>
+
+        <img className='dividr3' src={line} alt=''></img>
+        {/* starting */}
+        <Container>
+        <div className='mainocContainer'>
+          {/* <br />
+          <br />
+          <br /> */}
+        <div className='pd-2'></div>
+
+          <div className='otherOcMembers'>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor5} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>Dr. SHREEYAM MOHAPATRA<br></br>
+                SECRETARY</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='PhotoPos-2A' src={Doctor15} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>Dr. Sthitaprajna lenka<br /></button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor6} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. SHADAB ALI BAIG <br /></button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+
+
+
+          </div>
+        </div>  
+        </Container>
+        <Container>
+        <div className='mainocContainer'>
+          {/* <br />
+          <br />
+          <br /> */}
+        <div className='pd-2'></div>
+          <div className='otherOcMembers'>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor8} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. KUNAL AGARWAL <br></br>
+                    SCIENTIFIC CHAIRMAN</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='PhotoPos-2A' src={Doctor16} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>Dr. J P raiguru<br></br>
+                      Scientific Co Chairman</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor9} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. RACHNA RATH <br></br>
+                      SCIENTIFIC CHAIRMAN</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor10} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. SWARNAV PATNAIK <br></br>
+                      SCIENTIFIC CO-CHAIRMAN</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+          </div>
+        </div>  
+        </Container>
+        <Container>
+        <div className='mainocContainer'>
+          {/* <br />
+          <br />
+          <br /> */}
+        <div className='pd-2'></div>
+
+          <div className='otherOcMembers'>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor12} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. DEBAJYOTI BARDHAN <br></br>
+                TREASURER</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='PhotoPos-2A' src={Doctor13} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>DR. PRIYANKA DEBTA <br></br>
+                  PRE-CONFERENCE CHAIRMAN</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            <div className='ocMembers'>
+              <div className='ocMembersCard'>
+                <img className='' src={Doctor14} alt=''></img>
+                <div className='ocNameCard'>
+                  <button className='btn-cssA'>Dr. SHUBHANGI PAREEK <br></br>
+                  PRE-CONFERENCE CHAIRMAN</button>
+                </div>
+              </div>
+            </div>
+            <div className='pd-1'></div>
+            
+          </div>
+        </div>  
+        </Container>
+        <div className='pd-2'></div>
+        {/* <br />
+        <br /> */}
+      </div>
+      <img className='dividr' src={line} alt=''></img>
+
+      <img className='dividr1' src={line} alt=''></img>
+
+      <img className='dividr2' src={line} alt=''></img>
+
+      <img className='dividr3' src={line} alt=''></img>
+    </>
   )
 }
 

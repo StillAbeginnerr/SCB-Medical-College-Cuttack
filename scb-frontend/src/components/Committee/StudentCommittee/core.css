@@ -2,6 +2,10 @@
     position: relative;
     left: 16rem;
 }
+.imgCore{
+    height: 14rem;
+    width:14rem;
+}
 .btn-css-core{
     position: relative;
     top: 3rem;
@@ -51,3 +55,88 @@
     }
 }
 
+.Doctor{
+    display: block;
+    position: relative;
+    margin-top: 12rem;
+    left: 2rem;
+}
+.containerCore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.outerContainer{
+    width:100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.innerContainer{
+    width:75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-css-aomsi{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: #149BFC;
+    /* position: relative;
+   
+    right: 10%; */
+    /* margin-right: 5rem;
+    margin-bottom: 5rem; */
+   
+}
+
+.aomsi-heading{
+    /* position: relative;
+    left: 35%;
+    top: 4rem; */
+    color: #149BFC;
+    padding-bottom: 2rem;
+}
+.outerContainer{
+    width:100vw;
+    max-width:100%;
+}
+.headingCore{
+    text-align: center;
+    color: #149BFC;
+}
+.pd-1{
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .innerContainer{
+        flex-direction: column;
+
+    }
+    /* .aomsi-heading{
+        position: relative;
+        left: 2%;
+    } */
+    .Doctor{
+position: relative;
+left: 7.5rem;
+margin-right: 0rem;
+width: 70%;
+    }
+/* .btn-css-aomsi{
+    position: relative;
+    left: -7.5%;
+    bottom: 1rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+} */
+
+}

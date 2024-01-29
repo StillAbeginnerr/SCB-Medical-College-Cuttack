@@ -18,14 +18,14 @@ function Home() {
 
   return (
     <>
- <LogoSection></LogoSection>
-    <NavBar></NavBar>
-    <Header></Header>
-        <EventDetails/>
-    <AboutSym></AboutSym>
-    <PlacesToExplore></PlacesToExplore>
-    <OrganisingCommittee></OrganisingCommittee>
-    <img className='whatsapp-btn' src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" onClick={openWhatsApp} style={{width:'50px',height:'50px'}}></img>
+      <LogoSection></LogoSection>
+      <NavBar></NavBar>
+      <Header></Header>
+      <EventDetails />
+      <AboutSym></AboutSym>
+      <PlacesToExplore></PlacesToExplore>
+      <OrganisingCommittee></OrganisingCommittee>
+      <img className='whatsapp-btn' src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" onClick={openWhatsApp} style={{ width: '50px', height: '50px' }}></img>
     </>
   )
 }
