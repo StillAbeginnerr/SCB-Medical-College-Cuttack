@@ -17,7 +17,7 @@ function openWhatsApp() {
 function Home() {
 
   return (
-    <>
+    <div className='mainBody'>
       <LogoSection></LogoSection>
       <NavBar></NavBar>
       <Header></Header>
@@ -26,7 +26,7 @@ function Home() {
       <PlacesToExplore></PlacesToExplore>
       <OrganisingCommittee></OrganisingCommittee>
       <img className='whatsapp-btn' src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" onClick={openWhatsApp} style={{ width: '50px', height: '50px' }}></img>
-    </>
+    </div>
   )
 }
 
