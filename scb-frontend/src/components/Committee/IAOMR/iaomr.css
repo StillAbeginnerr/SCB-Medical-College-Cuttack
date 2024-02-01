@@ -217,7 +217,7 @@
 .iaomr-paraQ{
     position: relative;
     left: 0.8rem;
-    width: 132%;
+    width: 180%;
     font-size: 2rem;
 }
 
@@ -225,7 +225,7 @@
     .MainContainer {
         width: 70%;
         position: relative;
-        left: 10%;
+        left: 15%;
     }
 
      .MainContainerB {
@@ -249,7 +249,7 @@ display: none;
     .btn-css-iaomr-2{
         position: relative;
         top: 3rem;
-        right: 5.5rem;
+        right: 4.5rem;
         width: 18rem;
         height: 6rem;
         border-radius: 25px;
@@ -268,8 +268,8 @@ display: none;
     }
     .iaomr-para{
         position: relative;
-        left: 0.8rem;
-        width: 132%;
+        left: -1.2rem;
+        width: 180%;
         font-size: 2rem;
     }
     .second-l{
@@ -302,7 +302,7 @@ display: none;
     .btn-css-iaomr-1{
         position: relative;
         top: 3rem;
-        right: 7rem;
+        right: 4rem;
         width: 16rem;
         height: 6rem;
         border-radius: 25px;

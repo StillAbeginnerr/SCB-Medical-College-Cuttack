@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    line-height: 5rem;
 }
 .boxContainer{
     width:13rem;

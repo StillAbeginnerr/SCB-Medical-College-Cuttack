@@ -139,7 +139,7 @@ p {
  
   table{
     position: relative;
-    left: 1rem;
+    left: -0.0155rem;
   }
 
 .mainregister{
@@ -150,7 +150,7 @@ margin: 5rem 0rem;
 color: #149BFC;
 }
   .guidelines-container {
-    width: 25rem;
+    width: 23rem;
     margin: 5rem auto;
     border: 1px solid #ccc;
     padding: 20px;

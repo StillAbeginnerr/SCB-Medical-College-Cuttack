@@ -55,23 +55,27 @@
   width: 100%;
 }
 .twologoo {
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
   position: relative;
-  left: -6%;
-  top: 0.5rem;
+  left: -10%;
+  top: -0.5rem;
 }
 .twologos {
   margin-left: -4rem;
+  left: 16rem;
   position: relative;
-  left: 18rem;
+  bottom: 0.85rem;
+  height: 12.7rem;
 }
 .twologoo-1 {
-  height: 11rem;
-  position: relative;
-  bottom: 11.5rem;
-  left: -8%;
-  width: 46.5%;
+
+    height: 9rem;
+    position: relative;
+    bottom: 11.5rem;
+    left: -8%;
+    width: 42.5%;
+
 }
 
   

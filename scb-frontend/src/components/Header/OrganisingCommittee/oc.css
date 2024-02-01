@@ -809,7 +809,8 @@ right: 2rem;
         margin-top: 5rem;
         width: 100%;
         color: #149BFC;
-        position:unset;
+        position: relative;
+        left: 4rem;
     }
     .cardimg{
         margin-left: 0%;
