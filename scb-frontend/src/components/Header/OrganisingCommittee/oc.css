@@ -811,4 +811,7 @@ right: 2rem;
         color: #149BFC;
         position:unset;
     }
+    .cardimg{
+        margin-left: 0%;
+    }
 }

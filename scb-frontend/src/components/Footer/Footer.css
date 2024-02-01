@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow-x: hidden;
   }
   .nav-heading{
     margin-right: 3rem;
@@ -69,6 +70,7 @@
   @media only screen and (max-width: 600px) {
     .footer-nav{
       display: block;
+      
     }
 .footer-logo1{
   position: relative;
@@ -76,21 +78,27 @@
     bottom: 9%;
     height: 17rem;
     width: 20rem;
+    
 }
     .footer{
-      width: 110%;
+      width: 100%;
     }
     .nav-heading{
   text-align: center;
   position: relative;
-  left: 1.5rem;
+  left: -0.3rem;
   margin-top: 2rem;
+  margin-right: 0rem;
     }
     li{
       text-align: center;
     }
 .footer-contact{
   text-align: center;
+  overflow-x: hidden;
 }
     
 }
+
+
+
