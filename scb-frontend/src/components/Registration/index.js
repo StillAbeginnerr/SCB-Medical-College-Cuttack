@@ -41,7 +41,7 @@ const RegistrationTable = () => {
             <td>PG Student Delegate without Banquet</td>
             <td>₹3540<br />₹3000 + 18% GST included</td>
             <td>₹4720<br />₹4000 + 18% GST included</td>
-            <td>₹5000<br />₹5000 + 18% GST included</td>
+            <td>₹5900<br />₹5000 + 18% GST included</td>
           </tr>
           <tr>
             <td>PG Student Delegate with Banquet</td>
